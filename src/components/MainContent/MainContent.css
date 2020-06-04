@@ -9,14 +9,3 @@ h2{
 .tesarjanVayrer{
     height: 800px;
 }
-.border1{
-    border: 1px solid #dadada;
-    padding: 10px;
-    height: 450px;
-    border-radius: 10px;
-
-}
-.border1:hover{
-    transform: scale(1.02, 1.02);
-    box-shadow: 0 0  15px black;
-}

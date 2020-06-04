@@ -6,8 +6,7 @@ import PopularTurer from "./PopularTurer/PopularTurer";
 function MainContents(props) {
     return (
         <>
-            <TesarjanVayrer />
-            <hr/>
+            <TesarjanVayrer />            <hr/>
             <PopularTurer />
         </>
     )
