@@ -1,25 +1,28 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, {Fragment} from 'react';
 import './App.css';
+import { Container, Row, Col } from 'reactstrap';
+
+import Header from "./components/Header/Header";
+import MainContents from "./components/MainContent/MainContent";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <Fragment>
+          <Container fluid>
+              <Row>
+                  <Col style={{backgroundColor: "#cccccc"}}><Header /></Col>
+              </Row>
+              <Container>
+                  <Row>
+                      <Col style={{backgroundColor: "#f1f1f1"}}><MainContents /></Col>
+                  </Row>
+              </Container>
+              <Row>
+                    <Col style={{backgroundColor: "#d0d0d0"}}><Footer /></Col>
+              </Row>
+          </Container>
+      </Fragment>
   );
 }
 
