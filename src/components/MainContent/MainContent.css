@@ -7,5 +7,5 @@ h2{
     text-align: center;
 }
 .tesarjanVayrer{
-    height: 800px;
+    min-height: 800px;
 }

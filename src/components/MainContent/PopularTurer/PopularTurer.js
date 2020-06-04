@@ -18,6 +18,26 @@ export default function PopularTurer(props) {
                             <h3>1Tex</h3>
                         </Border>
                     </Col>
+                    <Col xs="4">
+                        <Border>
+                            <h3>2Tex</h3>
+                        </Border>
+                    </Col>
+                    <Col xs="4">
+                        <Border>
+                            <h3>3Tex</h3>
+                        </Border>
+                    </Col>
+                    <Col xs="4">
+                        <Border>
+                            <h3>4Tex</h3>
+                        </Border>
+                    </Col>
+                    <Col xs="4">
+                        <Border>
+                            <h3>5Tex</h3>
+                        </Border>
+                    </Col>
                 </Row>
             </Container>
         </>
