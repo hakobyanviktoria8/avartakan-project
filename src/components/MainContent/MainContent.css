@@ -9,3 +9,6 @@ h2{
 .tesarjanVayrer{
     min-height: 800px;
 }
+.carousel-item{
+    height: 350px;
+}

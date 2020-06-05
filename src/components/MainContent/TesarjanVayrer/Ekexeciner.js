@@ -29,7 +29,7 @@ function Ekexeciner(props) {
     return (
         <div>
             <Carusel1 items={items}/>
-            <h3 className={"entaVernagir"}>Ekexeciner</h3>
+            <h3 className={"entaVernagir"}>Եկեղեցիներ</h3>
         </div>
     )
 }

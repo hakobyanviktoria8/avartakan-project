@@ -30,7 +30,7 @@ function Lcher(props) {
     return (
         <div>
             <Carusel1 items={items}/>
-            <h3 className={"entaVernagir"}>Ekexeciner</h3>
+            <h3 className={"entaVernagir"}>Լճեր</h3>
         </div>
     )
 }

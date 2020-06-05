@@ -1,6 +1,6 @@
-.header{
-    height: 100vh;
-}
 .logo{
     width: 80px;
+}
+.header{
+    min-height: 100vh;
 }

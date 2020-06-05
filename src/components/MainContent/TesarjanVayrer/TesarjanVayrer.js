@@ -22,12 +22,28 @@ export default function TesarjanVayrer(props) {
                     </Col>
                     <Col xs="4">
                         <Border>
+                            <Tangaranner />
+                        </Border>
+                    </Col>
+                    <Col xs="4">
+                        <Border>
                             <Lcher />
+                        </Border>
+                    </Col>
+                </Row> <Row>
+                    <Col xs="4">
+                        <Border>
+                            <Ekexeciner />
                         </Border>
                     </Col>
                     <Col xs="4">
                         <Border>
                             <Tangaranner />
+                        </Border>
+                    </Col>
+                    <Col xs="4">
+                        <Border>
+                            <Lcher />
                         </Border>
                     </Col>
                 </Row>
