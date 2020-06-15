@@ -1,0 +1,52 @@
+.sightseeing{
+    min-height: 800px;
+}
+.title{
+    text-align: center;
+    font-size: 4vw;
+    margin: 35px auto;
+}
+.subtitle{
+    text-align: center;
+}
+.carousel-inner{
+    height: 370px;
+    position: relative;
+}
+.carousel-item img{
+    height: 320px;
+}
+.carousel-item h3{
+    font-size: 20px;
+    position: absolute;
+    display: contents;
+    bottom: 20px;
+    width: 250px;
+}
+.carousel-item p{
+    position: absolute;
+    bottom: -20px;
+    margin-top: 20px;
+    font-size: 14px;
+    width: 250px;
+}
+.border{
+    border: 1px solid #dadada;
+    padding: 10px;
+    height: 430px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.border:hover{
+    transform: scale(1.02, 1.02);
+    box-shadow: 0 0  10px black;
+}
+
+@media (max-width:760px){
+    .title{
+        font-size: 5vw;
+    }
+    .card1{
+        margin: 0 auto;
+    }
+}

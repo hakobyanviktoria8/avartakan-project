@@ -1,0 +1,29 @@
+import React  from "react";
+import { UncontrolledCarousel } from 'reactstrap';
+import axios from 'axios';
+import Border from "./Border";
+
+class Card extends React.Component{
+    state = {
+        items: [],
+    };
+    componentDidMount() {
+        axios.get(this.props.url)
+            .then(res => {
+                const items = res.data;
+                this.setState({ items });
+            })
+    }
+    render() {
+        console.log(this.state.items);
+        return (
+            <Border>
+                <div onClick={(e)=>console.log(e.target)}>
+                    <UncontrolledCarousel items={this.state.items}/>
+                    <h3 className={"subtitle"}>{this.props.title}</h3>
+                </div>
+            </Border>
+        )
+    }
+}
+export default Card
