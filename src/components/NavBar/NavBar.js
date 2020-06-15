@@ -8,10 +8,10 @@ function Navbar(props) {
             <a href="#">
                 <img id="logo" src={logo} alt="logo"/>
             </a>
-            <label for="toggle-1" className="toggle-menu">
+            <label htmlFor="toggle-1" className="toggle-menu">
                 <ul>
                     <li></li>
-                    <li></li> 
+                    <li></li>
                     <li></li>
                 </ul>
             </label>

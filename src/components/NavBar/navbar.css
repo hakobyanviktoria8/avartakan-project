@@ -1,12 +1,12 @@
 *{
     text-decoration: none; 
     list-style: none; 
-    margin: 0px; padding:0px; 
+    margin: 0;
+    padding: 0;
     outline: none;
+    box-sizing: border-box;
 }
 body {
-    margin: 0px; 
-    padding: 0px; 
     font-family: 'Open Sans', sans-serif;
 }
 header {
@@ -18,7 +18,9 @@ header {
     position: fixed;
     width: 100%;
     z-index: 100;
-    display: table; 
+    display: table;
+    background-color: #cccccc;
+    margin-bottom: 50px;
 }
 #logo {
     float: left; 
@@ -36,7 +38,7 @@ nav ul li {
     float: left;
 }
 nav ul li:last-child {
-    padding-right:0px;
+    padding-right: 0;
 }
 nav ul li a {
     color:#fff; 
@@ -72,7 +74,7 @@ nav ul li a i {
     border-radius: 4px;
 }
 .toggle-menu ul li:last-child {
-    margin-bottom:0px;
+    margin-bottom: 0;
 }
 input[type=checkbox], label{display:none;}
 .content {
@@ -100,12 +102,12 @@ footer {
     padding-bottom:30px; 
     width:100%;}
 .social {
-    margin:0px auto; 
+    margin: 0 auto;
     display:table; 
 }
 .social li {
     float:left; 
-    padding:0px 10px;
+    padding: 0 10px;
 }
 .social li a {
     color:#002e5b; 
@@ -123,10 +125,10 @@ footer {
 }
 @media only screen and (max-width: 980px) {
     header {
-        padding:20px 0px;
+        padding:20px 0;
     }
     #logo {
-        padding:0px;
+        padding: 0;
     }
     input[type=checkbox] {
         position: absolute; 
@@ -139,7 +141,7 @@ footer {
     }
     label {
         float: right; 
-        padding:8px 0px; 
+        padding:8px 0;
         display:inline-block; 
         cursor:pointer; 
     }
@@ -147,12 +149,12 @@ footer {
         display:block;
     }
     nav {
-        display:none; position:absolute; right:0px; top:53px; background-color:#002e5b; padding:0px; z-index:99;}
+        display:none; position:absolute; right: 0; top:53px; background-color:#002e5b; padding: 0; z-index:99;}
     nav ul {
         width:auto;}
     nav ul li {
         float:none;
-        padding:0px; 
+        padding: 0;
         width:100%; 
         display:table;
     }
@@ -170,7 +172,7 @@ footer {
 }
 @media only screen and (max-width: 568px) {
     h1 {
-        padding:25px 0px;
+        padding:25px 0;
     }
     h1 span {
         display:block;
@@ -186,7 +188,7 @@ footer {
         font-size:20px;
     }
     label {
-        padding:5px 0px;
+        padding:5px 0;
     }
     #logo {
         font-size: 20px;
@@ -197,7 +199,7 @@ footer {
 }
 @media only screen and (max-width: 320px) {
     h1 {
-        padding: 20px 0px;
+        padding: 20px 0;
     }
     #logo {
         width: 100px;

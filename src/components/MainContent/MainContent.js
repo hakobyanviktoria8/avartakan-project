@@ -1,13 +1,13 @@
 import React from "react";
 import "./MainContent.css";
-import TesarjanVayrer from "./TesarjanVayrer/TesarjanVayrer";
-import PopularTurer from "./PopularTurer/PopularTurer";
+import Sightseeing from "./Sightseeing/Sightseeing";
+import PopularTour from "./PopularTours/PopularTоurs";
 
 function MainContents(props) {
     return (
         <>
-            <TesarjanVayrer />            <hr/>
-            <PopularTurer />
+            <Sightseeing />
+            <PopularTour />
         </>
     )
 }
