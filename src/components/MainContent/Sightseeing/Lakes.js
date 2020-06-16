@@ -4,7 +4,7 @@ import Card from "./Card";
 export default function Lakes(props) {
     return(
         <div>
-            <Card url={"http://localhost:3000/lakes"} title={"Ջրային ռեսուրսներ"}/>
+            <Card url={"http://localhost:3000/lakes"} title={"Լճեր"}/>
         </div>
     )
 }

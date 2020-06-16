@@ -19,7 +19,7 @@ function Navbar(props) {
             <nav>
                 <ul>
                     <li><a href="#home">Գլխավոր</a></li>
-                    <li><a href="#place">Տեսարժան Վայրեր</a></li>
+                    <li><a href="#place">Տեսարժան վայրեր</a></li>
                     <li><a href="#turs">Պահանջված Տուրեր</a></li>
                     <li><a href="#search">Փնտրել</a></li>
                     <li><a href="#login">Գրանցվել</a></li>

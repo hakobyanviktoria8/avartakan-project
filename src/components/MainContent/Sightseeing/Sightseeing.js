@@ -18,7 +18,7 @@ export default function Sightseeing(props) {
             <Container fluid className={"sightseeing"}>
                 <Row>
                     <Col>
-                        <h2 className={"title"}>Հայաստանի տեսարժան վայրերը</h2>
+                        <h2 id={"sightseeing"} className={"title"}>Բացահայտենք Հայաստանը միասին</h2>
                     </Col>
                 </Row>
                 <Row>

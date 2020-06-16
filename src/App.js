@@ -1,29 +1,26 @@
 import React, {Fragment} from 'react';
 import './App.css';
 import { Container, Row, Col } from 'reactstrap';
-
 import Header from "./components/Header/Header";
 import MainContents from "./components/MainContent/MainContent";
 import Footer from "./components/Footer/Footer";
-import Navbar from "./components/NavBar/NavBar";
+import Navigation from "./components/NavBar/Navigation";
 
 function App() {
   return (
       <Fragment>
           <Container fluid>
               <Row>
-                  <Col><Navbar /></Col>
+                  <Col className={"navigation"}><Navigation/></Col>                              {/*<Col><Navbar /></Col>*/}
               </Row>
               <Row>
-                  <Col style={{backgroundColor: "#cccccc"}}><Header /></Col>
+                  {/*<Col><Header /></Col>*/}
               </Row>
-              {/*<Container>*/}
-                  <Row>
-                      <Col><MainContents /></Col>
-                  </Row>
-              {/*</Container>*/}
               <Row>
-                    <Col style={{backgroundColor: "#d0d0d0"}}><Footer /></Col>
+                  <Col><MainContents /></Col>
+              </Row>
+              <Row>
+                    <Col><Footer /></Col>
               </Row>
           </Container>
       </Fragment>

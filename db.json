@@ -374,34 +374,33 @@
       "popular": false
     }
   ],
-  "museums": [
-    {
-      "key": "1",
-      "img": [],
-      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Armenia_Museum_of_Art_and_History.jpg/1280px-Armenia_Museum_of_Art_and_History.jpg",
-      "header": "Հայաստանի Պատմության Թանգարան",
-      "altText":"Հայաստանի Պատմության Թանգարան",
-      "caption": "Հայաստանի պատմություն",
-      "description": "Թանգարանում ներկայացված են Հայաստանի և հայ ժողովրդի պատմությունն ու մշակույթը ներկայացնող առարկաներ և հավաքածուներ: Թանգարանի առաքելությունն է՝ այդ առարկաների և հավաքածուների պահպանումը, համալրումը, ուսումնասիրությունն ու հանրահռչակումը:",
-      "height": "300px",
-      "phoneNumber": "+37455520691",
-      "address":"ՀՀ, ք. Երևան, Հանրապետության հրպ. 4",
-      "site": ["https://historymuseum.am/", "https://www.facebook.com/HistoryMuseumofArmenia/?ref=hl"],
-      "coordinates": {
-        "latitude": 40.1786913,
-        "longitude": 44.511663
-      },
-      "popular": false,
-      "email": "museum@historymuseum.am",
-      "workTime": ["11AM–5PM", "փակ է", "11AM–6PM", "11AM–6PM", "11AM–6PM", "11AM–6PM", "11AM–6PM"]
+  "museums": [ {
+    "key": "1",
+    "img": [],
+    "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTt_oykZkupi9k1-zOzEDBde91gnl7nSlUgGnaNWBMIoHoDMVtB&usqp=CAU",
+    "header": "Հայաստանի Պատմության Թանգարան",
+    "altText":"Հայաստանի Պատմության Թանգարան",
+    "caption": "Պատմությունն իբրև ներշնչման աղբյուր...",
+    "description": "Թանգարանում ներկայացված են Հայաստանի և հայ ժողովրդի պատմությունն ու մշակույթը ներկայացնող առարկաներ և հավաքածուներ:Թանգարանի առաքելությունն է՝ այդ առարկաների և հավաքածուների պահպանումը, համալրումը, ուսումնասիրությունն ու հանրահռչակումը:",
+    "height": "300px",
+    "phoneNumber": "+37455520691",
+    "address":"ՀՀ, ք. Երևան, Հանրապետության հրպ. 4",
+    "site": ["https://historymuseum.am/", "https://www.facebook.com/HistoryMuseumofArmenia/?ref=hl"],
+    "coordinates": {
+      "latitude": 40.1786913,
+      "longitude": 44.511663
     },
+    "popular": false,
+    "email": "museum@historymuseum.am",
+    "workTime": ["11AM–5PM", "փակ է", "11AM–6PM", "11AM–6PM", "11AM–6PM", "11AM–6PM", "11AM–6PM"]
+  },
     {
       "key": "2",
       "img": [],
       "src": "https://3.bp.blogspot.com/-Brl2dtrsCrk/Urg8whqzthI/AAAAAAAAEzc/zKqIEoJl33c/s1600/3.jpg",
       "header": "Մատենադարան",
       "altText": "Մատենադարան",
-      "caption": "Ձեռագրերի կենտրոն",
+      "caption": "Ձեռագրերի պահպանման ամենահարուստ կենտրոններից մեկը աշխարհում:",
       "description": "Երևանի Մեսրոպ Մաշտոցի անվան Մատենադարան, հին ձեռագրերի և փաստաթղթերի պահպանման և ուսումնասիրման կենտրոն: Այստեղ պահպանվում են շուրջ 23000 ձեռագիր, հմայիլներ, պատառիկներ և 300 000 արխիվային փաստաթուղթ։",
       "height": "300px",
       "phoneNumber": "+37410562578",
@@ -419,9 +418,9 @@
       "key": "3",
       "img": [],
       "src": "https://yerevancard.com/system/cat_items/imgs/000/000/013/defaultsize/tumanuan_tangaran.jpg?1519555633",
-      "header": "Հովհաննես Թումանյանի թանգարան",
-      "altText":"Հովհաննես Թումանյանի թանգարան",
-      "caption": "1953 թվական",
+      "header": "Հովհաննես Թումանյան",
+      "altText":"Հովհաննես Թումանյան",
+      "caption": "թանգարան",
       "description": "Այստեղը՝ մի խորհրդավոր վայր է, որտեղ ապրում է բանաստեղծ, գրող, հասարակական գործիչ և արձակագիր Հովհաննես Թումանյանի իմաստուն ոգին, որտեղ հսկում է նրա ամենատես աչքը:",
       "height": "300px",
       "phoneNumber": "+37410560021",
@@ -439,9 +438,9 @@
       "key": "4",
       "img": [],
       "src": "https://www.24news.am/sites/default/files/2020-03/%D0%9C%D1%83%D0%B7%D0%B5%D0%B9_%D0%9A%D0%BE%D0%BC%D0%B8%D1%82%D0%B0%D1%81%D0%B0_1.jpg",
-      "header": "Կոմիտասի թանգարան",
-      "altText":"Կոմիտասի թանգարան",
-      "caption": "2015 թվական",
+      "header": "Կոմիտաս",
+      "altText":"Կոմիտաս",
+      "caption": "թանգարան-ինստիտուտ",
       "description": "Թանգարան-ինստիտուտում ներկայացված է Կոմիտասի վարդապետի կյանքն ու գործունեությունը տարբեր ոլորտները, հանրահռչակելու նրա բազմակողմանի երաժշտական ժառանգությունը:",
       "height": "300px",
       "phoneNumber": "+37411570570",
@@ -459,9 +458,9 @@
       "key": "5",
       "img": [],
       "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Sergei_Parajanov_Museum.jpg/1280px-Sergei_Parajanov_Museum.jpg",
-      "header": "Սերգեյ Փարաջանովի թանգարան",
-      "altText":"Սերգեյ Փարաջանովի թանգարան",
-      "caption": "1988թվական",
+      "header": "Սերգեյ Փարաջանով",
+      "altText":"Սերգեյ Փարաջանով",
+      "caption": "թանգարան",
       "description": "Երևանի ամենաշատ այցելուներ ունեցող թանգարաններից է։ Թանգարանը ներկայացնում է Փարաջանովի բազմազան գրական և գեղարվեստական ժառանգությունը։",
       "height": "300px",
       "phoneNumber": "+37410538473",
@@ -478,11 +477,11 @@
     {
       "key": "6",
       "img": [],
-      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/%D5%80%D5%A1%D5%B5%D5%B8%D6%81_%D6%81%D5%A5%D5%B2%D5%A1%D5%BD%D5%BA%D5%A1%D5%B6%D5%B8%D6%82%D5%A9%D5%B5%D5%A1%D5%B6_%D5%A9%D5%A1%D5%B6%D5%A3%D5%A1%D6%80%D5%A1%D5%B6-%D5%AB%D5%B6%D5%BD%D5%BF%D5%AB%D5%BF%D5%B8%D6%82%D5%BF%D5%AB_%D5%B7%D5%A5%D5%B6%D6%84%D5%A8_35.jpg/1920px-%D5%80%D5%A1%D5%B5%D5%B8%D6%81_%D6%81%D5%A5%D5%B2%D5%A1%D5%BD%D5%BA%D5%A1%D5%B6%D5%B8%D6%82%D5%A9%D5%B5%D5%A1%D5%B6_%D5%A9%D5%A1%D5%B6%D5%A3%D5%A1%D6%80%D5%A1%D5%B6-%D5%AB%D5%B6%D5%BD%D5%BF%D5%AB%D5%BF%D5%B8%D6%82%D5%BF%D5%AB_%D5%B7%D5%A5%D5%B6%D6%84%D5%A8_35.jpg",
-      "header": "Հայոց ցեղասպանության թանգարան",
-      "altText":"Հայոց ցեղասպանության թանգարան",
-      "caption": " 1995 թվականի ",
-      "description": "ՀՀ ԳԱԱ Հայոց ցեղասպանության թանգարան-ինստիտուտ, թանգարան Երևանում, ՀՀ ԳԱԱ գիտամշակութային հաստատություն. կազմակերպվել է 1995 թվականի մարտին։ Խնդիրն է՝ հավաքել, մշակել, հրատարակել, պահպանել և ցուցադրել Թուրքիայի կառավարող շրջանների կողմից նախապատրաստված և 1915-1923 թվականներին իրականացված հայոց ցեղասպանությանը վերաբերող փաստաթղթեր, լուսանկարներ, գրականություններ։",
+      "src": "https://lh3.googleusercontent.com/proxy/30_SYY9sSfcIFzwGEXUcw65mRSSC8pibcZacb-50UcFuWrrNib3hjo6jbBuEXd8Rg95iiE-aDBOyTFwPneoDZDA-qC-B-uLPUzo",
+      "header": "Հայոց ցեղասպանության թանգարան-ինստիտուտ",
+      "altText":"Հայոց ցեղասպանության թանգարան-ինստիտուտ",
+      "caption": "թանգարան-ինստիտուտ",
+      "description": "ՀՀ ԳԱԱ Հայոց ցեղասպանության թանգարան-ինստիտուտ, թանգարան Երևանում, ՀՀ ԳԱԱ գիտամշակութային հաստատություն. կազմակերպվել է 1995 թվականի մարտին։Խնդիրն է՝ հավաքել, մշակել, հրատարակել, պահպանել և ցուցադրել Թուրքիայի կառավարող շրջանների կողմից նախապատրաստված և 1915-1923 թվականներին իրականացված հայոց ցեղասպանությանը վերաբերող փաստաթղթեր, լուսանկարներ, գրականություններ։",
       "height": "300px",
       "phoneNumber": "+37410391412",
       "address":"ՀՀ, ք. Երևան, Ծիծեռնակաբերդի հուշահամալիր 8/8",
@@ -498,11 +497,11 @@
     {
       "key": "7",
       "img": [],
-      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Plaza_de_la_Rep%C3%BAblica%2C_Erev%C3%A1n%2C_Armenia%2C_2016-10-02%2C_DD_113-114_HDR.jpg/1280px-Plaza_de_la_Rep%C3%BAblica%2C_Erev%C3%A1n%2C_Armenia%2C_2016-10-02%2C_DD_113-114_HDR.jpg",
+      "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTt_oykZkupi9k1-zOzEDBde91gnl7nSlUgGnaNWBMIoHoDMVtB&usqp=CAU",
       "header": "Հայաստանի ազգային պատկերասրահ",
       "altText":"Հայաստանի ազգային պատկերասրահ",
-      "caption": "Հիմնադրվել է 1921 թ.",
-      "description": "Հայաստանի ազգային պատկերասրահը երկրի խոշորագույն գեղարվեստական թանգարանն է, որի 56 ցուցասրահներում ներկայացված հավաքածուն ընդհանուր պատկերացում է տալիս ազգային կերպարվեստի և դեկորատիվ-կիրառական արվեստի պատմության մասին, ինչպես նաև ներկայացնում է արտասահմանյան երկրների արվեստը հնագույն ժամանակներից մինչև մեր օրերը: ",
+      "caption": "պատկերասրահ",
+      "description": "Հայաստանի ազգային պատկերասրահը երկրի խոշորագույն գեղարվեստական թանգարանն է, որի 56 ցուցասրահներում ներկայացված հավաքածուն ընդհանուրպատկերացում է տալիս ազգային կերպարվեստի և դեկորատիվ-կիրառական արվեստի պատմության մասին, ինչպես նաև ներկայացնում է արտասահմանյան երկրների արվեստը հնագույն ժամանակներից մինչև մեր օրերը: ",
       "height": "300px",
       "phoneNumber": "+37410567472",
       "address": "ՀՀ, ք. Երևան, Արամի փող. 1",
@@ -519,10 +518,10 @@
       "key": "8",
       "img": [],
       "src": "https://operasuitehotel.com/uploads/blog/gallery/jx876ajz2wigih95fk7lv18x5.jpg",
-      "header": "Գաֆէսճեան արվեստի կենտրոն",
-      "altText":"Գաֆէսճեան արվեստի կենտրոն",
-      "caption": "Արվեստի կենտրոն",
-      "description": "Գաֆէսճեան արվեստի կենտրոնի ցուցահանդեսները հիմնականում ներկայացնում են կենտրոնի հիմնադիր Ջերարդ Գաֆէսճեանի ժամանակակից արվեստի հարուստ հավաքածուն։ Հավաքածուում ներկայացված են այնպիսի անվանի արվեստագետներ, ինչպես Դեյլ Չիհուլիի, Ֆեռնանդո Բոտերոյի, Ջենիֆեր Բարթլեթի, Դեյբիդ Բրոյեր-Վեյլի, Ջի Յոնգ Հոյի, Բարրի Ֆլանագանի, Ժաումե Պլենզայի, Ֆրանսուա Քսավիե Լալանի, Ջոանա Վասկոնսելոսի, Պիտեր Վոյտուկի և բազմաթիվ այլ անվանի արվեստագետների հանրահայտ ստեղծագործությունները։",
+      "header": "Գաֆէսճեան",
+      "altText":"Գաֆէսճեան",
+      "caption": "արվեստի կենտրոն",
+      "description": "Գաֆէսճեան արվեստի կենտրոնի ցուցահանդեսները հիմնականում ներկայացնում են կենտրոնի հիմնադիր Ջերարդ Գաֆէսճեանի ժամանակակից արվեստի հարուստ հավաքածուն։Հավաքածուում ներկայացված են այնպիսի անվանի արվեստագետներ, ինչպես Դեյլ Չիհուլիի, Ֆեռնանդո Բոտերոյի, Ջենիֆեր Բարթլեթի, Դեյբիդ Բրոյեր-Վեյլի, Ջի Յոնգ Հոյի, ԲարրիՖլանագանի, Ժաումե Պլենզայի, Ֆրանսուա Քսավիե Լալանի, Ջոանա Վասկոնսելոսի, Պիտեր Վոյտուկի և բազմաթիվ այլ անվանի արվեստագետների հանրահայտ ստեղծագործությունները։",
       "height": "300px",
       "phoneNumber": "+37410541932",
       "address":"ՀՀ, ք. Երևան, Թամանյան 10",
@@ -559,9 +558,9 @@
       "key": "10",
       "img": [],
       "src": "https://media.izi.travel/04496ee4-401e-4303-9aff-428e3aa5dc06/0bbc556f-c9ec-4686-bde6-c7be9df741f8_800x600.jpg",
-      "header": "Մարտիրոս Սարյանի տուն-թանգարան",
-      "altText":"Մարտիրոս Սարյանի տուն-թանգարան",
-      "caption": "Մեծագույն նկարիչ Մարտիրոս Սարյան",
+      "header": "Մարտիրոս Սարյան",
+      "altText":"Մարտիրոս Սարյան",
+      "caption": "տուն-թանգարան",
       "description": "Մարտիրոս Սարյանի տուն-թանգարանը, 20-րդ դարի մեծանուն նկարիչ Մարտիրոս Սարյանի (1880-1972) տուն-թանգարանը ստեղծվել է Երևանում Հայաստանի կառավարության հատուկ որոշմամբ, բացվել է 1967 թվականի նոյեմբերի 26-ին՝ նկարչի կենդանության օրոք։",
       "height": "300px",
       "phoneNumber": "+37410580568",
@@ -574,6 +573,126 @@
       "popular": false,
       "email": "info@sarian.am",
       "workTime": ["11AM–6PM", "11AM–6PM", "11AM–6PM", "11AM–6PM", "11AM–6PM", "11AM–6PM", "11AM–6PM"]
+    },
+    {
+      "key": "11",
+      "img": [],
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/2014_Erywa%C5%84%2C_Erebuni%2C_Muzeum_Erebuni%2C_Budynek_muzeum_%2802%29.jpg/450px-2014_Erywa%C5%84%2C_Erebuni%2C_Muzeum_Erebuni%2C_Budynek_muzeum_%2802%29.jpg",
+      "header": "Էրեբունի",
+      "altText":"Էրեբունի",
+      "caption": "պատմահնագիտական արգելոց-թանգարան",
+      "description": "",
+      "height": "300px",
+      "phoneNumber": "+37410432661",
+      "address":"ՀՀ, ք. Երևան, Էրեբունի փող. 38",
+      "site": ["www.erebuni.am", "https://www.facebook.com/Erebunimuseum"],
+      "coordinates": {
+        "latitude": 40.1411503,
+        "longitude": 44.5330244
+      },
+      "popular": false,
+      "email": "erebunimuseum@gmail.com",
+      "workTime": ["", "", "", "", "", "", ""]
+    },
+    {
+      "key": "12",
+      "img": [],
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/%D4%B5%D5%B2%D5%AB%D5%B7%D5%A5_%D5%89%D5%A1%D6%80%D5%A5%D5%B6%D6%81%D5%AB_%D5%BF%D5%B8%D6%82%D5%B6-%D5%A9%D5%A1%D5%B6%D5%A3%D5%A1%D6%80%D5%A1%D5%B6..jpg/450px-%D4%B5%D5%B2%D5%AB%D5%B7%D5%A5_%D5%89%D5%A1%D6%80%D5%A5%D5%B6%D6%81%D5%AB_%D5%BF%D5%B8%D6%82%D5%B6-%D5%A9%D5%A1%D5%B6%D5%A3%D5%A1%D6%80%D5%A1%D5%B6..jpg",
+      "header": "Եղիշե Չարենց",
+      "altText":"Եղիշե Չարեն",
+      "caption": "տուն-թանգարան",
+      "description": "",
+      "height": "300px",
+      "phoneNumber": "+37410531412",
+      "address":"ՀՀ, ք. Երևան, Մաշտոցի պող. 17",
+      "site": ["www.gatmuseum.am", "https://www.facebook.com/profile.php?id=100028998044633"],
+      "coordinates": {
+        "latitude": 40.1787015,
+        "longitude": 44.5118315
+      },
+      "popular": false,
+      "email": "",
+      "workTime": ["11:00AM-3:00PM", "11:00AM-4:00PM", "11:00AM-4:00PM", "11:00AM-4:00PM", "11:00AM-4:00PM", "11:00AM-4:00PM", "11:00AM-4:00PM"]
+    },
+    {
+      "key": "13",
+      "img": [],
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/%D4%B1%D6%80%D5%A1%D5%B4_%D4%BD%D5%A1%D5%B9%D5%A1%D5%BF%D6%80%D5%B5%D5%A1%D5%B6%D5%AB_%D5%BF%D5%B8%D6%82%D5%B6-%D5%A9%D5%A1%D5%B6%D5%A3%D5%A1%D6%80%D5%A1%D5%B6_%281%29.jpg/450px-%D4%B1%D6%80%D5%A1%D5%B4_%D4%BD%D5%A1%D5%B9%D5%A1%D5%BF%D6%80%D5%B5%D5%A1%D5%B6%D5%AB_%D5%BF%D5%B8%D6%82%D5%B6-%D5%A9%D5%A1%D5%B6%D5%A3%D5%A1%D6%80%D5%A1%D5%B6_%281%29.jpg",
+      "header": "Արամ Խաչատրյան",
+      "altText":"Արամ Խաչատրյան",
+      "caption": "տուն-թանգարան",
+      "description": "",
+      "height": "300px",
+      "phoneNumber": "+37410589418",
+      "address":"ՀՀ, ք. Երևան, Զարոբյան փող. 3",
+      "site": ["akhachaturianmuseum.am", "https://www.facebook.com/pages/House-Museum%20of%20Aram%20Khachaturian/144395678910992/"],
+      "coordinates": {
+        "latitude": 40.190255,
+        "longitude": 44.5111059
+      },
+      "popular": false,
+      "email": "",
+      "workTime": ["փակ է", "11:00-5:00", "11:00-5:00", "11:00-5:00", "11:00-5:00", "11:00-5:00", "11:00-4:30"]
+    },
+    {
+      "key": "14",
+      "img": [],
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/%D4%B1%D5%BE%D5%A5%D5%BF%D5%AB%D6%84_%D4%BB%D5%BD%D5%A1%D5%B0%D5%A1%D5%AF%D5%B5%D5%A1%D5%B6%D5%AB_%D5%BF%D5%B8%D6%82%D5%B6-%D5%A9%D5%A1%D5%B6%D5%A3%D5%A1%D6%80%D5%A1%D5%B6.JPG/450px-%D4%B1%D5%BE%D5%A5%D5%BF%D5%AB%D6%84_%D4%BB%D5%BD%D5%A1%D5%B0%D5%A1%D5%AF%D5%B5%D5%A1%D5%B6%D5%AB_%D5%BF%D5%B8%D6%82%D5%B6-%D5%A9%D5%A1%D5%B6%D5%A3%D5%A1%D6%80%D5%A1%D5%B6.JPG",
+      "header": "Ավետիք Իսահակյան",
+      "altText":"Ավետիք Իսահակյան",
+      "caption": "տուն-թանգարան",
+      "description": "",
+      "height": "300px",
+      "phoneNumber": "+37410527980",
+      "address":"ՀՀ, ք. Երևան, Զարոբյան փող. 20",
+      "site": ["www.isahakyanmuseum.am", "https://www.facebook.com/AvetiqIsahakyanArmenia"],
+      "coordinates": {
+        "latitude": 40.1912633,
+        "longitude": 44.5116744
+      },
+      "popular": false,
+      "email": "info@isahakyanmuseum.am",
+      "workTime": ["11:00AM-4:00PM", "10:30AM-5:00PM", "10:30AM-5:00PM", "10:30AM-5:00PM", "10:30AM-5:00PM", "10:30AM-5:00PM", "10:30AM-5:00PM"]
+    },
+    {
+      "key": "15",
+      "img": [],
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Paruyr_Sevak_Museum.jpg/450px-Paruyr_Sevak_Museum.jpg",
+      "header": "Պարույր Սևակ",
+      "altText":"Պարույր Սևակ",
+      "caption": "տուն-թանգարան",
+      "description": "",
+      "height": "300px",
+      "phoneNumber": "+37493377599",
+      "address": "ՀՀ, Արարատի մարզ, Զանգակատուն համայնք, Պ․ Սևակի փող․, 1-ին փակուղի, 1 տուն",
+      "site": ["", "https://www.facebook.com/Sevakmuseum"],
+      "coordinates": {
+        "latitude": 39.8207979,
+        "longitude": 45.0321006
+      },
+      "popular": false,
+      "email": "",
+      "workTime": ["10:00AM-5:00PM", "10:00AM-5:00PM", "10:00AM-5:00PM", "10:00AM-5:00PM", "10:00AM-5:00PM", "10:00AM-5:00PM", "10:00AM-5:00PM"]
+    },
+    {
+      "key": "16",
+      "img": [],
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Museum_of_Mher_Mkrtchyan_in_Gyumri.jpg/450px-Museum_of_Mher_Mkrtchyan_in_Gyumri.jpg",
+      "header": "Ֆրունզիկ Մկրտչյան ",
+      "altText":"Ֆրունզիկ Մկրտչյան ",
+      "caption": "տուն-թանգարան",
+      "description": "",
+      "height": "300px",
+      "phoneNumber": "+37431255174",
+      "address":"ՀՀ, Շիրակի մարզ, ք. Գյումրի, Ռուսթավելու փող. 30",
+      "site": ["http://frunzikmuseum.com/hy/mher-mkrtchyan-museum/", "https://www.facebook.com/pages/category/Community-Museum/%D5%84%D5%B0%D5%A5%D6%80-%D5%84%D5%AF%D6%80%D5%BF%D5%B9%D5%B5%D5%A1%D5%B6%D5%AB-%D5%BF%D5%B8%D6%82%D5%B6-%D5%A9%D5%A1%D5%B6%D5%A3%D5%A1%D6%80%D5%A1%D5%B6-702457406433117/"],
+      "coordinates": {
+        "latitude": 40.7843231,
+        "longitude": 43.770366
+      },
+      "popular": false,
+      "email": "frunzikmkrtchyan.museum@gmail.com",
+      "workTime": ["", "", "", "", "", "", ""]
     }
   ],
   "restaurants": [
@@ -1434,6 +1553,24 @@
     {
       "key": "6",
       "img": [],
+      "src": "https://dashboard.iammedia.am/assets/uploads/posts/thumbnails/image-1588785977728.jpg",
+      "header": "Երևանի կենդանաբանական այգի",
+      "altText": "Երևանի կենդանաբանական այգի",
+      "caption": "20 Մյասնիկյան պ., Երևան",
+      "description": "Երևանի կենդանաբանական այգի, գիտահետազոտական հիմնարկ։ Հիմնադրվել է 1940 թվականին։",
+      "height": "300px",
+      "phoneNumber": "+37410562362",
+      "address": "20 Մյասնիկյան պողոտա, Երևան 0025",
+      "site": [],
+      "coordinates": {
+        "latitude": 40.1949136,
+        "longitude": 44.5495823
+      },
+      "popular": false
+    },
+    {
+      "key": "7",
+      "img": [],
       "src": "https://lh5.googleusercontent.com/p/AF1QipNP69Hiz0SueFjba8oWGa4ABfOdHYnLdixVPxJx=w408-h306-k-no",
       "header": "Թումանյանի անվան այգի",
       "altText": "Թումանյանի անվան այգի",
@@ -1450,10 +1587,46 @@
       "popular": false
     },
     {
-      "key": "7",
+      "key": "8",
+      "img": [],
+      "src": "https://verelq.am/uploads/news/82c9730ab184594306dc69126575ba88.jpg",
+      "header": "Երևանի բուսաբանական այգի",
+      "altText": "Երևանի բուսաբանական այգի",
+      "caption": "15 Լեփսիուսի փ., Երևան",
+      "description": "Հիմնադրվել է 1935 թվականին անվանի գիտնականներ՝ Ա.Կ. Մաղաքյանի, Ա.Ա. Հախվերդովի և Ն.Վ. Միրզոևայի կողմից:",
+      "height": "300px",
+      "phoneNumber": "",
+      "address": "15 Լեփսիուսի փողոց, Երևան 0035",
+      "site": [],
+      "coordinates": {
+        "latitude": 40.2116666,
+        "longitude": 44.5539803
+      },
+      "popular": false
+    },
+    {
+      "key": "9",
+      "img": [],
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Stepanavan_Dendropark%2C_Lori.jpg/450px-Stepanavan_Dendropark%2C_Lori.jpg",
+      "header": "Ստեփանավանի Դենդրոպարկ",
+      "altText": "Ստեփանավանի Դենդրոպարկ",
+      "caption": "Գյուղագարակ",
+      "description": "Էդմոն Լեոնովիչի անվան Սոճուտ դենդրոայգի, հայտնի նաև որպես Ստեփանավանի դենդրոպարկ, գտնվում է Լոռու մարզի Գյուլագարակ գյուղում, Ստեփանավան քաղաքից 12 կմ հեռավորության վրա, Երևանից 155 կմ հյուսիս, ծովի մակերևույթից շուրջ 1450 մետր բարձրության վրա։",
+      "height": "300px",
+      "phoneNumber": "",
+      "address": "Գյուլագարակ",
+      "site": [],
+      "coordinates": {
+        "latitude": 40.9369156,
+        "longitude": 44.4767546
+      },
+      "popular": false
+    },
+    {
+      "key": "10",
       "img": [],
       "src": "https://lh5.googleusercontent.com/p/AF1QipMJA6qR5Wdu3XEkG_yGpDXOBHc8CvlaRelz4Fl4=w408-h544-k-no",
-      "header": "«Մոսկովյան պուրակ",
+      "header": "Մոսկովյան պուրակ",
       "altText": "Մոսկովյան պուրակ",
       "caption": "Երևանի Կենտրոն համայնք",
       "description": "Մոսկովյան պուրակ, գտնվում է Երևանի Կենտրոն համայնքում՝ Ավետիք Իսահակյան, Կորյունի և Գևորգ Քոչարի փողոցների միջև։ Պուրակը, Կորյունի փողոցից ձգվելով Հրաչյա Ղափլանյանի անվան դրամատիկական թատրոնի շենքի երկայնքով, տարածվում է մինչև «Առագաստ» սրճարան ու հանգստի գոտի։",
@@ -1468,27 +1641,9 @@
       "popular": false
     },
     {
-      "key": "8",
+      "key": "11",
       "img": [],
-      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/%D4%BF%D5%B8%D5%B4%D5%AB%D5%BF%D5%A1%D5%BD_%D5%B0%D5%B8%D6%82%D5%B7%D5%A1%D6%80%D5%B1%D5%A1%D5%B6_3.JPG/450px-%D4%BF%D5%B8%D5%B4%D5%AB%D5%BF%D5%A1%D5%BD_%D5%B0%D5%B8%D6%82%D5%B7%D5%A1%D6%80%D5%B1%D5%A1%D5%B6_3.JPG",
-      "header": "Կոմիտասի անվան պուրակ",
-      "altText": "Կոմիտասի անվան պուրակ",
-      "caption": "Երևան, Կոմիտասի անվ․ կոնսերվատորիա",
-      "description": "Կոմիտասի անվան պուրակ, գտնվում է Երևանի Կենտրոն համայնքում, Կոմիտասի անվան կոնսերվատորիայի, Սայաթ-Նովայի անվան երաժշտական դպրոցի մերձակա տարածքում։",
-      "height": "300px",
-      "phoneNumber": "",
-      "address": "Երևան, Կոմիտասի անվ․ կոնսերվատորիա",
-      "site": [],
-      "coordinates": {
-        "latitude": 40.1871565,
-        "longitude": 44.5139637
-      },
-      "popular": false
-    },
-    {
-      "key": "9",
-      "img": [],
-      "src": "https://www.yerevan.am/uploads/media/default/0001/11/thumb_10022_default_allimages.jpeg",
+      "src": "https://www.tiv1.am/wp-content/uploads/2019/07/7171894413_5d1320d406_b.jpg",
       "header": "Մանկական Զբոսայգի",
       "altText": "Մանկական Զբոսայգի",
       "caption": "13 Միկոյան փողոց, Երևան",
@@ -1504,7 +1659,7 @@
       "popular": false
     },
     {
-      "key": "10",
+      "key": "12",
       "img": [],
       "src": "https://www.yerevan.am/uploads/media/default/0001/10/thumb_9557_default_allimages.jpeg",
       "header": "Շահումյանի անվան պուրակ",
@@ -1520,6 +1675,24 @@
         "longitude": 44.4492048
       },
       "popular": false
+    },
+    {
+      "key": "13",
+      "img": [],
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/%D4%B4%D5%AB%D5%AC%D5%AB%D5%BB%D5%A1%D5%B6_%D5%A1%D5%A6%D5%A3%D5%A1%D5%B5%D5%AB%D5%B6_%D5%BA%D5%A1%D6%80%D5%AF_-_Dilijan_National_Park_%2814.05.2020%29_02.jpg/360px-%D4%B4%D5%AB%D5%AC%D5%AB%D5%BB%D5%A1%D5%B6_%D5%A1%D5%A6%D5%A3%D5%A1%D5%B5%D5%AB%D5%B6_%D5%BA%D5%A1%D6%80%D5%AF_-_Dilijan_National_Park_%2814.05.2020%29_02.jpg",
+      "header": "Դիլիջան ազգային պարկ",
+      "altText": "Դիլիջան ազգային պարկ",
+      "caption": "Դիլիջան, Տավուշի մարզ",
+      "description": "Դիլիջանի արգելոցը զբաղեցնում է Աղստև գետի վերին հոսանքի ավազանը՝ Հալաբի արևելյան, Միափորիի հյուսիսարևմտյան և Արեգունի լեռնաշղթայի հյուսիսարևելյան լանջերը, մոտ 24000 հեկտար տարածություն։",
+      "height": "300px",
+      "phoneNumber": "",
+      "address": "Դիլիջան, Տավուշի մարզ, Հայաստան",
+      "site": [],
+      "coordinates": {
+        "latitude": 40.7876254,
+        "longitude": 44.8629058
+      },
+      "popular": false
     }
   ],
   "culture": [],
@@ -1528,9 +1701,9 @@
       "key": "1",
       "img": [],
       "src": "https://www.spyur.am/images/additional_info_0/29251/29251_1.JPG?version=6387",
-      "header": "ԻՆ ՎԻՆՈ",
-      "altText":"ԻՆ ՎԻՆՈ",
-      "caption": "Գինու ակումբ-բար",
+      "header": "Ին Վինո ",
+      "altText":"Ին Վինո",
+      "caption": "ակումբ-վաճառատուն-բար",
       "description": "Ին Վինոն առաջին մասնագիտացված բար, վաճառատուն և գինիների ակումբն է Հայաստանում: Գինին` շփում է այն երկրի փիլիսոփայության ու պատմության հետ որտեղ այն սարքվել է",
       "height": "300px",
       "phoneNumber": "+37410521931",
@@ -1547,10 +1720,10 @@
     {
       "key": "2",
       "img": [],
-      "src": "https://www.google.com/url?sa=i&url=https%3A%2F%2F360stories.com%2Farmenia%2Fpoint%2Ffront-of-ginetun-restaurant&psig=AOvVaw3oFDPaW1ZPvSJjs5_wgb3t&ust=1592251655348000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCICa5-iNguoCFQAAAAAdAAAAABAO",
-      "header": "ԳԻՆԵՏՈՒՆ",
-      "altText":"ԳԻՆԵՏՈՒՆ",
-      "caption": "Բացվել է 2008թ.",
+      "src": "https://lh3.googleusercontent.com/wSVmLKr68nJxah9IXqUyqQopGwax36CbAVmokfQSx7YCayUvuyy6E2pOrt9_F0rZ65iyzhVIu6PXtqZU=w768-h768-n-o-v1",
+      "header": "Գինետուն",
+      "altText":"Գինետուն",
+      "caption": "գինտուն-ռեստորան",
       "description": "Եթե ցանկանում եք զարմացնել Ձեր, թե՛ տեղացի, թե՛ օտարերկրացի հյուրերին հետաքրքիր ինտերիերով ու համեղ ավանդական ուտեստներով, ապա համեցե՛ք, մենք սպասում ենք Ձեզ:",
       "height": "300px",
       "phoneNumber": "+37410610850",
@@ -1568,9 +1741,9 @@
       "key": "3",
       "img": ["https://media-cdn.tripadvisor.com/media/photo-s/10/ac/41/d5/wine-house.jpg"],
       "src": "https://scontent.fevn4-1.fna.fbcdn.net/v/t1.0-9/103578874_1307653732764943_5442575860216279657_o.jpg?_nc_cat=110&_nc_sid=730e14&_nc_ohc=6ccgjX-r2yUAX-heXt2&_nc_ht=scontent.fevn4-1.fna&oh=ecc1221e092d96916d7886429f6735b0&oe=5F0AEA2D",
-      "header": "ԳԻՆՈՎԿԱՑ ՎԱՅՆ ՀԱՈՒՍ",
-      "altText":"ԳԻՆՈՎԿԱՑ ՎԱՅՆ ՀԱՈՒՍ",
-      "caption": "Բացվել է 2016թ",
+      "header": "Գինովաց Վայն Հաուս",
+      "altText":"Գինովաց Վայն Հաուս",
+      "caption": "գինտուն-ռեստորան",
       "description": "Պլանավորե՛ք ձեր երեկոն Գինովկացում՝ համեղ սեղանի շուրջ և հաճելի երաժշտության ներքո",
       "height": "300px",
       "phoneNumber": "+37493305433",
@@ -1588,9 +1761,9 @@
       "key": "4",
       "img": [],
       "src": "https://media-exp1.licdn.com/dms/image/C561BAQFLvxVzuiYjww/company-background_10000/0?e=2159024400&v=beta&t=f4SgQ7A9G29doIDeT-7gy3mdfY0BjCKer2JyO5FgCmg",
-      "header": "Wine Time",
-      "altText":"Wine Time",
-      "caption": "Բացվել է 2018",
+      "header": "Վայն Թայմ",
+      "altText":"Վայն Թայմ",
+      "caption": "գինու վաճառատուն-բար",
       "description": "Գինետուն, գինու բար, գինիների խանութ",
       "height": "300px",
       "phoneNumber": "+37444151413",
@@ -1610,7 +1783,7 @@
       "src": "https://scontent.fevn4-1.fna.fbcdn.net/v/t1.0-9/p960x960/69372951_573696733161318_7926617600832831488_o.jpg?_nc_cat=110&_nc_sid=e3f864&_nc_ohc=w5eqIIKy44QAX8dDPkQ&_nc_ht=scontent.fevn4-1.fna&_nc_tp=6&oh=e5300e8808d803dee68b5bad55b22969&oe=5F0C2833",
       "header": "Գինետուն Արենի Քարայր",
       "altText":"Գինետուն Արենի Քարայր",
-      "caption": "",
+      "caption": "գինիների համտես վաճառք",
       "description": "Տնական գինիների համտես վաճառք, հայկական խոհանոցի համեղ Տնական ուտեստներ, տուրեր խաղողի այգիներ:",
       "height": "300px",
       "phoneNumber": "+37493752480",
@@ -1630,7 +1803,7 @@
       "src": "https://visittoarmenia.ru/images/15805090050.jpg",
       "header": "Տապաստան",
       "altText":"Տապաստան",
-      "caption": "Բացվել է 2015թ.-ին",
+      "caption": "ակումբ-վաճառատուն-բար",
       "description": "",
       "height": "300px",
       "phoneNumber": "+37410521932",
@@ -1643,8 +1816,268 @@
       "popular": false,
       "email": "tapastanevn@gmail.com",
       "workTime": ["12:00AM-11;30PM", "12:00AM-11;30PM", "12:00AM-11;30PM", "12:00AM-11;30PM", "12:00AM-11;30PM", "12:00AM-11;30PM", "12:00AM-11;30PM"]
+    },
+
+    {
+      "key": "7",
+      "img": [],
+      "src": "https://www.visitarmenia.travel/images/15805009233.jpg",
+      "header": "Նանե Վայն Հաուս",
+      "altText":"Նանե Վայն Հաուս",
+      "caption": "գինետուն-ռեստորան",
+      "description": "",
+      "height": "300px",
+      "phoneNumber": "+37491038989",
+      "address": "ՀՀ, Կոտայքի մարզ, ք. Ծաղկաձոր, Գրիգոր Մագիստրոսի փող. 8",
+      "site": ["", ""],
+      "coordinates": {
+        "latitude": 40.533362,
+        "longitude": 44.719416
+      },
+      "popular": false,
+      "email": "",
+      "workTime": ["11:00PM-11:30PM", "11:00PM-11:30PM", "11:00PM-11:30PM", "11:00PM-11:30PM", "11:00PM-11:30PM", "11:00PM-11:30PM", "11:00PM-11:30PM"]
+    },
+    {
+      "key": "8",
+      "img": [],
+      "src": "https://media-cdn.tripadvisor.com/media/photo-s/17/b5/9a/cf/saryan-notes-from-outside.jpg",
+      "header": "Սարյան Նոթս",
+      "altText":"Սարյան Նոթս",
+      "caption": "գինետուն-ռեստորան",
+      "description": "",
+      "height": "300px",
+      "phoneNumber": "+37411202006",
+      "address": "ՀՀ, ք. Երևան, Մ. Սարյան փող. 1",
+      "site": ["http://saryannotes.am/", "https://www.facebook.com/saryannotes1"],
+      "coordinates": {
+        "latitude": 40.1870445,
+        "longitude": 44.5075063
+      },
+      "popular": false,
+      "email": "contact@saryannotes.com",
+      "workTime": ["10:00AM-12:00PM", "10:00AM-12:00PM", "10:00AM-12:00PM", "10:00AM-12:00PM", "10:00AM-12:00PM", "10:00AM-12:00PM", "10:00AM-12:00PM"]
+    },
+    {
+      "key": "9",
+      "img": [],
+      "src": "https://lh3.googleusercontent.com/proxy/IziJX2NOBewXtpEIZ69hEzFV7KA7nYi8oRSNDv66d9UhmtZ5OFNCypbL6EUrfoWcDelZgjeNx7qO05gWoZR2okseA6NJNjPd9lHnU0KgmEQoXzB2jw_lwb6TuQH7Chrpz8Vn06pQ9qZrGsmqGlFgDhttXRv6p6kOnEKEim2mOvwP",
+      "header": "Աշտարակ Մառան",
+      "altText":"Աշտարակ Մառան",
+      "caption": "գինետուն-ռեստորան",
+      "description": "",
+      "height": "300px",
+      "phoneNumber": "+37499386666 ",
+      "address": "ՀՀ, Արագածոտնի մարզ, ք. Աշտարակ,Տերյան փող. 1",
+      "site": ["", ""],
+      "coordinates": {
+        "latitude": 40.2981239,
+        "longitude": 44.3578358
+      },
+      "popular": false,
+      "email": "",
+      "workTime": ["9:00AM-21:00PM", "9:00AM-21:00PM", "9:00AM-21:00PM", "9:00AM-21:00PM", "9:00AM-21:00PM", "9:00AM-21:00PM", "9:00AM-21:00PM"]
+    },
+    {
+      "key": "10",
+      "img": [],
+      "src": "https://oakandalmond.com/wp-content/uploads/2019/01/DSC_0348HDR-optimized.jpg",
+      "header": "Ալմոնդ",
+      "altText":"Ալմոնդ",
+      "caption": "բար-ռեստորան",
+      "description": "",
+      "height": "300px",
+      "phoneNumber": "+37411800777",
+      "address": "ՀՀ, ք. Երևան, Սարյան փող. 8",
+      "site": ["", ""],
+      "coordinates": {
+        "latitude": 40.1868426,
+        "longitude": 44.5074284
+      },
+      "popular": false,
+      "email": "",
+      "workTime": ["11:55AM-12:00PM", "11:55AM-12:00PM", "11:55AM-12:00PM", "11:55AM-12:00PM", "11:55AM-12:00PM", "11:55AM-12:00PM", "11:55AM-12:00PM"]
     }
   ],
-  "extreme":[],
+  "extreme":[
+    {
+      "key": "1",
+      "img": [],
+      "src": "https://lh3.googleusercontent.com/proxy/Hxh0WjCAWVv5TNYLlkxoLsJBPpPWxsLo5YC5RP46BKJZHmAWwPbjF7Kp3un9EacqPgTpXYTSmVJ9IsQnoKQMLK4OeFXIK1_KeLIFd1ZLXkKwQvsa7IXlVYtl7WP8GPk",
+      "header": "Off-Road տուրիզմ",
+      "altText": "Off-Road տուրիզմ",
+      "caption": "Արտաճանապարհային տուրեր",
+      "description": "Ադրենալինի առողջարար չափաբաժինն ու Հայաստանի անհավանական գեղեցիկ բնապատկերներով հիացմունքը մեր off-road և ջիփինգ տուրերի հիմնական ուղեկիցներն են:",
+      "height": "300px",
+      "phoneNumber": "",
+      "address": "",
+      "site": [],
+      "coordinates": {
+        "latitude": 40.1760043,
+        "longitude": 44.5209652
+      },
+      "popular": false
+    },{
+      "key": "2",
+      "img": [],
+      "src": "https://picnichotels.com/wp-content/uploads/2016/01/biking-armenia-640x400.jpg",
+      "header": "Հեծանվավազք",
+      "altText": "Հեծանվավազք",
+      "caption": "Հեծանվային տուրիզմը",
+      "description": "Հեծանվային տուրիզմը ամենաուշագրավ մարզաձևերից մեկն է: Հեծանիվով ճանապարհորդելը շատ հաճելի է, բավականին մատչելի, և դրանով կարելի է զբաղվել ցանկացած տարիքում:",
+      "height": "300px",
+      "phoneNumber": "",
+      "address": "",
+      "site": [],
+      "coordinates": {
+        "latitude": 40.1742073,
+        "longitude": 44.5059173
+      },
+      "popular": false
+    },{
+      "key": "3",
+      "img": [],
+      "src": "https://x5q6b4v8.rocketcdn.me/wp-content/uploads/2020/03/Horseback-Riding-in-Vardenis-Mountains.jpg",
+      "header": "Ձիավարություն",
+      "altText": "Ձիավարություն",
+      "caption": "Ձիավարություն Հայաստանում",
+      "description": "Ձիարշավային տուրիզմը հանգստի հրաշալի միջոց է: Այն հնարավորություն է ընձեռում վայելել բնության ներդաշնակությունը, զգալ քեզ բնության մի մասնիկ և միաձուլվել բնությանը:",
+      "height": "300px",
+      "phoneNumber": "",
+      "address": "",
+      "site": [],
+      "coordinates": {
+        "latitude": 40.1753192,
+        "longitude": 44.5053472
+      },
+      "popular": false
+    },
+    {
+      "key": "4",
+      "img": [],
+      "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRtPZwUKLBE7ZvaqUqfW6SKRkRq9TbZoMNBgFGOOCa0VJLb3rHC&usqp=CAU",
+      "header": "Քեմփինգ",
+      "altText": "Քեմփինգ",
+      "caption": "Վրանային հանգիստ",
+      "description": "Քեմպինգը հնարավորություն է ընձեռում վայելել բնության ներդաշնակությունը, զգալ քեզ բնության մի մասնիկ:",
+      "height": "300px",
+      "phoneNumber": "",
+      "address": "",
+      "site": [],
+      "coordinates": {
+        "latitude": 40.1913332,
+        "longitude": 44.50473
+      },
+      "popular": false
+    },
+    {
+      "key": "5",
+      "img": [],
+      "src": "https://explorearmenia.am/images/news/zip-line.webp",
+      "header": "Զիփլայն",
+      "altText": "Զիփլայն",
+      "caption": "Զիփլայն Հայաստանում",
+      "description": "Զիփլայնը թույլ է տալիս էքստրեմալ զգացողությունների սիրահարներին ճոպանի և ձգողականաթյան ուժի շնորհիվ ﬕ վայրից հասնել մյուս վայրը:",
+      "height": "300px",
+      "phoneNumber": "",
+      "address": "",
+      "site": [],
+      "coordinates": {
+        "latitude": 40.1615834,
+        "longitude": 44.4996209
+      },
+      "popular": false
+    },
+    {
+      "key": "6",
+      "img": [],
+      "src": "https://armland.am/wp-content/uploads/2018/11/cover-4.jpg",
+      "header": "Արշավներ",
+      "altText": "Արշավներ",
+      "caption": "Արշավներ Հայաստանում",
+      "description": "Ամեն արշավից հետո սկսում ես սպասել հաջորդ արշավին և հասկանում ես, որ չես պատկերացնում կյանքդ առանց արշավների, ճանապարհորդությունների, բացահայտումների, սուր զգացողությունների, լավ ընկերների և նոր ծանոթությունների:",
+      "height": "300px",
+      "phoneNumber": "",
+      "address": "",
+      "site": [],
+      "coordinates": {
+        "latitude": 40.1949136,
+        "longitude": 44.5495823
+      },
+      "popular": false
+    },
+    {
+      "key": "7",
+      "img": [],
+      "src": "https://eli.fun/wp-content/uploads/2018/03/viaFerrata.jpg",
+      "header": "ժայռամագլցում",
+      "altText": "ժայռամագլցում",
+      "caption": "Լեռնագնացություն Հայաստանում",
+      "description": "Հայաստանը լեռնային երկիր է. գտնվում է Հարավային Կովկասում` Կասպից և Սև ծովերի միջև: Այս երկրի տեղանքը շատ բազմազան է` անապատից մինչև ալպիական մարգագետիններ: Այսպիսի բազմազանությունը ստեղծում է հիանալի պայմաններ տուրիզմի բոլոր տեսակների համար, այդ թվում նաև ժայռամագլցման համար:",
+      "height": "300px",
+      "phoneNumber": "",
+      "address": "",
+      "site": [],
+      "coordinates": {
+        "latitude": 40.2116666,
+        "longitude": 44.5539803
+      },
+      "popular": false
+    },
+    {
+      "key": "8",
+      "img": [],
+      "src": "https://lh3.googleusercontent.com/proxy/MPZc9YJaKEQWfo-OnH5vbJM_cWIsSrvrFMB5irxohHZwLlvW6veBcByGET2HcCDS6vZqRvsU6LlaXuA1lAM-fu96erp_a29As3NLwTLG7uatffdQoI7Pd6Z7Jzi1ehg",
+      "header": "Պարապլան",
+      "altText": "Պարապլան",
+      "caption": "Պարապլաներիզմը Հայաստանում",
+      "description": "Ի՞նչը կարող է ավելի լավ լինել, քան երկրի վրա ճախրելը, հայկական լեռների ու ժայռերի գեղեցկությամբ հիանալը։",
+      "height": "300px",
+      "phoneNumber": "",
+      "address": "",
+      "site": [],
+      "coordinates": {
+        "latitude": 40.9369156,
+        "longitude": 44.4767546
+      },
+      "popular": false
+    },
+    {
+      "key": "9",
+      "img": [],
+      "src": "https://lh3.googleusercontent.com/z2tdJqYzJiMMoCiS8-FlGSfmgFuaifcFP93Msi6VHUQ5I5T9JsZUPRB5eJixKrhJMf0QqxWHvOmE_gBqeIAyQ-sOkW2iWfuXzveGcg2oBJ7JSkF_WMk3_B-WHmFAHgWn4SbctwnO",
+      "header": "Ռոուդջամփինգ",
+      "altText": "Ռոուդջամփինգ",
+      "caption": "Թռիչք պարանով",
+      "description": "Ռոուդջամփինգը բառացիորեն թարգմանվում է որպես «թռիչք պարանով»։ Դրա իմաստն այն է, որ թռչողն ազատ թռիչքի փուլից հետո բռնի պարանը։",
+      "height": "300px",
+      "phoneNumber": "",
+      "address": "",
+      "site": [],
+      "coordinates": {
+        "latitude": 40.183188,
+        "longitude": 44.5586905
+      },
+      "popular": false
+    },
+    {
+      "key": "10",
+      "img": [],
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Airforce_skiing_at_keystone_colorado.jpg/330px-Airforce_skiing_at_keystone_colorado.jpg",
+      "header": "Ձմեռային սպորտաձևերը",
+      "altText": "Ձմեռային սպորտաձևերը",
+      "caption": "Ձմեռային սպորտաձևերը Հայաստանում",
+      "description": "Ձմեռային սպորտաձևերը սպորտի այն տեսակներն են, որոնք խաղում են հիմնականում ձյան կամ սառույցի վրա։",
+      "height": "300px",
+      "phoneNumber": "",
+      "address": "",
+      "site": [],
+      "coordinates": {
+        "latitude": 40.7876254,
+        "longitude": 44.8629058
+      },
+      "popular": false
+    }
+  ],
   "popular": []
 }
