@@ -1,0 +1,47 @@
+.table{
+    min-height: 85vh;
+    border: 2px solid red;
+    position: absolute;
+    top: 80px;
+    width: 100%;
+}
+table{
+    padding: 20px;
+    width: 80%;
+    margin: 30px auto;
+}
+.table td, .table th {
+    padding: .75rem;
+    vertical-align: top;
+    border-top: none;
+}
+tr{
+    height: 200px;
+}
+.tableImg{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    margin: 10px;
+}
+.imgTD{
+    width: 250px;
+    padding: 40px;
+    text-align: center;
+}
+.tableImg:hover{
+    transform: scale(1.02, 1.02);
+    box-shadow: 0 0  10px black;
+    cursor: pointer;
+}
+.descTD{
+    padding: 20px;
+    border-bottom: 3px solid #e5e5e5;
+}
+/*avelacnel*/
+@media (max-width:1000px){
+    .descTD{
+        background-color: #e5e5e5;
+    }
+
+}
