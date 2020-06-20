@@ -4,7 +4,7 @@ import Card from "./Card";
 export default function WineHouses(props) {
     return(
         <div>
-            <Card url={"http://localhost:3000/wineHouses"} title={"Գինետներ"}/>
+            <Card url={"https://am-places.herokuapp.com/wineHouses"} title={"Գինետներ"}/>
         </div>
     )
 }

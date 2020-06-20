@@ -4,7 +4,7 @@ import Card from "./Card";
 export default function Waterfalls(props) {
     return(
         <div>
-            <Card url={"http://localhost:3000/waterfalls"} title={"Ջրվեժներ"}/>
+            <Card url={"https://am-places.herokuapp.com/waterfalls"} title={"Ջրվեժներ"}/>
         </div>
     )
 }
@@ -14,7 +14,7 @@ export default function Waterfalls(props) {
 //         items: []
 //     };
 //     componentDidMount() {
-//         axios.get("http://localhost:3000/waterfalls")
+//         axios.get("https://am-places.herokuapp.com/waterfalls")
 //             .then(res => {
 //                 const items = res.data;
 //                 this.setState({ items });

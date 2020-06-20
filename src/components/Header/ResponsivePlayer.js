@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import './home.css';
+import './Header.css';
 import ReactPlayer from 'react-player'
  
 class ResponsivePlayer extends Component {

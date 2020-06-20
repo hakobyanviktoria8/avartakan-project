@@ -1,5 +1,9 @@
 .sightseeing{
-    min-height: 800px;
+    min-height: 85vh;
+    border: 2px solid red;
+    position: absolute;
+    top: 80px;
+    width: 100%;
 }
 .title{
     text-align: center;
@@ -42,7 +46,7 @@
     box-shadow: 0 0  10px black;
 }
 
-@media (max-width:760px){
+@media (max-width:992px){
     .title{
         font-size: 5vw;
     }
