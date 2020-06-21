@@ -2,8 +2,9 @@
     min-height: 85vh;
     border: 2px solid red;
     position: absolute;
-    top: 80px;
-    width: 100%;
+    top: 100px;
+    width: 99%;
+    margin: 0 auto;
 }
 table{
     padding: 20px;

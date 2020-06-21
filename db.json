@@ -2079,5 +2079,33 @@
       "popular": false
     }
   ],
-  "popular": []
+  "popular": [],
+
+
+  "item":[
+    {
+      "key": "1",
+      "name": "zoravar-surb-astvatsatsin-church",
+      "img": [],
+      "src": "https://lh3.googleusercontent.com/proxy/Hxh0WjCAWVv5TNYLlkxoLsJBPpPWxsLo5YC5RP46BKJZHmAWwPbjF7Kp3un9EacqPgTpXYTSmVJ9IsQnoKQMLK4OeFXIK1_KeLIFd1ZLXkKwQvsa7IXlVYtl7WP8GPk",
+      "header": "Ձմեռային սպորտաձևերը",
+      "altText":"Ձմեռային սպորտաձևերը",
+      "caption": "Ձմեռային սպորտաձևերը Հայաստանում",
+      "description": "Ձմեռային սպորտաձևերը սպորտի այն տեսակներն են, որոնք խաղում են հիմնականում ձյան կամ սառույցի վրա։",
+      "address":"ՀՀ, ք. Երևան, Հանրապետության հրպ. 4",
+      "phoneNumber": " . . . ",
+      "email": " . . . ",
+      "workTime": " . . . ",
+      "site": ["#" , "#"],
+      "coordinates": {
+        "latitude": "",
+        "longitude": ""
+      }
+    }
+  ]
+
+
+
+
+
 }

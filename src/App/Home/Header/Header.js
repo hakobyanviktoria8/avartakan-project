@@ -5,9 +5,11 @@ import ResponsivePlayer from "./ResponsivePlayer";
 
 function Header(props) {
     return (
-        <div className={"header"}>
-            <ResponsivePlayer />
-        </div>
+        <>
+            <div className={"header"}>
+                <ResponsivePlayer />
+            </div>
+        </>
     )
 }
 export default Header

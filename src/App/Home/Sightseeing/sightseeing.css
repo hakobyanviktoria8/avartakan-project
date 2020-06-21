@@ -3,12 +3,12 @@
     border: 2px solid red;
     position: absolute;
     top: 80px;
-    width: 100%;
+    width: 99%;
 }
 .title{
     text-align: center;
     font-size: 4vw;
-    margin: 35px auto;
+    margin: 35px auto 50px;
 }
 .subtitle{
     text-align: center;

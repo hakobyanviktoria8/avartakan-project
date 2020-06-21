@@ -11,21 +11,20 @@ export default function Table(props) {
                 let dataArr = await response.json();
                 setRowData(dataArr);
             } else{
-                alert("Error " + response.status)
+                alert("Կներեք, նկատվել է խնդիր համացանցում: Փորձեք մի փոքր ավելի ուշ: Շնորհակալություն ...!")
             }
         };
         fetchData();
     },[]);
     return(
         <div className={"table"}>
-            {/*<h2 className={"title"}>Հայաստանն իր գեղեցկությամբ</h2>*/}
             <table>
                 <tbody>
                 {
                     rowData.map(item =>
                         <tr key={item.key}>
                             <td className={"imgTD"}>
-                                <Link to={`/sightseeing/church/${item.key}`}>
+                                <Link to={`${item.key}`}>
                                     <img className={"tableImg"} src={item.src} alt={item.altText}/>
                                 </Link>
                                 <p>{item.caption}</p>
