@@ -10,8 +10,6 @@ import {TableWrapperList} from "./Home/Sightseeing/TableWrapper/TableWrapperList
 import PopularPlace from "./Home/PopularPlace/PopularPlace";
 import Registration from "./Home/Registration/Registration";
 import {SelectedItem} from "./Home/Sightseeing/TableWrapper/SelectedItem/SelectedItem";
-import {SelectedItemImages} from "./Home/Sightseeing/TableWrapper/SelectedItem/Images/SelectedItemImages";
-import {SelectedItemContacts} from "./Home/Sightseeing/TableWrapper/SelectedItem/Contacts/SelectedItemContacts";
 
 function App() {
   return (
@@ -24,10 +22,7 @@ function App() {
                           <Route path="/" element={<SightseeingList />} />
                           <Route path=":section" element={<TableWrapper />}>
                               <Route path="/" element={<TableWrapperList />}/>
-                              <Route path=":key" element={<SelectedItem />}>
-                                  <Route path="/" element={<SelectedItemImages/>}/>
-                                  <Route path="contacts" element={<SelectedItemContacts/>}/>
-                              </Route>
+                              <Route path=":key" element={<SelectedItem />}/>
                           </Route>
                       </Route>
                       <Route path="/popular-place" element={<PopularPlace />} />

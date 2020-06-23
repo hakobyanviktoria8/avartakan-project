@@ -1,0 +1,44 @@
+.item{
+    border: 1px solid #cc0f12;
+    min-height: 400px;
+    max-height: 600px;
+    overflow: auto;
+}
+.item h2{
+    text-align: center;
+}
+.imageNav img{
+    width: 122px;
+    margin: 6px;
+    height: 85px;
+}
+.contacts a:hover{
+    transform: scale(1.2, 1.2);
+    text-shadow: 0 0  5px #c7c7c7;
+}
+.contacts{
+    border: 1px solid #cccccc;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+}
+.workTime{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+
+}
+.workTime tr{
+    height: 40px;
+    padding: 5px;
+}
+.workTime td{
+    text-align: center;
+    font-size: 14px;
+}
+
+@media (max-width: 760px) {
+    .col-sm-10{
+        margin: 0 auto;
+    }
+}
