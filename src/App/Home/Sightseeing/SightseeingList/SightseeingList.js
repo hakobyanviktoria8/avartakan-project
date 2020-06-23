@@ -4,6 +4,7 @@ import { Row, Col } from 'reactstrap';
 import Church from "./Church";
 import Museums from "./Museums";
 import Culture from "./Culture";
+import Popular from "./Popular";
 import Festivals from "./Festivals";
 import Parks from "./Parks";
 import Lakes from "./Lakes";
@@ -26,7 +27,7 @@ import WineHouses from "./WineHouses";
                 <Link to="culture"><Culture /></Link>
             </Col>
             <Col xs="10" sm="6" md="5" lg="4" xl="3" className={"card1"}>
-                <Link to="festivals"><Festivals /></Link>
+                <Link to="culture"><Popular /></Link>
             </Col>
             <Col xs="10" sm="6" md="5" lg="4" xl="3" className={"card1"}>
                 <Link to="parks"><Parks /></Link>
@@ -42,6 +43,9 @@ import WineHouses from "./WineHouses";
             </Col>
             <Col xs="10" sm="6" md="5" lg="4" xl="3" className={"card1"}>
                 <Link to="extreme"><Extreme /></Link>
+            </Col>
+            <Col xs="10" sm="6" md="5" lg="4" xl="3" className={"card1"}>
+                <Link to="festivals"><Festivals /></Link>
             </Col>
             <Col xs="10" sm="6" md="5" lg="4" xl="3" className={"card1"}>
                 <Link to="restaurants"><Restaurants /></Link>

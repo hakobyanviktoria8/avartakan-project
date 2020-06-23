@@ -15,7 +15,6 @@ class Card extends React.Component{
             })
     }
     render() {
-        // console.log(this.state.items);
         return (
             <Border>
                 <div>

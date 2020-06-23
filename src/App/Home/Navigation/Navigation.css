@@ -4,11 +4,11 @@
     z-index: 2;
     top: 0;
     height: 80px;
-    border: 2px solid red;
 }
 .link{
     color: #757575;
     font-size: 20px;
+    font-weight: 500;
 }
 .link:hover{
     transform: scale(1.02, 1.02);

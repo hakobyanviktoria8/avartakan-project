@@ -1,6 +1,5 @@
 .selectedItem{
     min-height: 65vh;
-    border: 2px solid red;
     position: absolute;
     top: 150px;
     width: 99%;

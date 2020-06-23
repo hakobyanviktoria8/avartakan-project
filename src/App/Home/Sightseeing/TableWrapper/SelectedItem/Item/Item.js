@@ -14,11 +14,6 @@ export function Item(props) {
     let source = `Images/${section}/${props.name}`;
     let imgArr = [1,2,3,4,5,6,7,8,9,10,11,12];
 
-    const handleClick=(e)=>{
-        e.preventDefault();
-        console.log("Hello")
-
-    };
     return(
         <Container>
             <Row>
@@ -26,13 +21,11 @@ export function Item(props) {
                     <h2>{props.header}</h2>
                     <h6>{props.caption}</h6>
                     <p>{props.description}</p>
-                    {console.log(props)}
-                    {console.log(source)}
                 </Col>
                 <Col xs="12" sm="10" md="6" lg="6" xl="6" className={"item"}>
                     <div className={"imageNav"}>
                         {imgArr.map(x=>
-                            <img onClick={handleClick} key={x} src={require(`./${source}/${x}.jpg`)}/>
+                            <img key={x} src={require(`./${source}/${x}.jpg`)}/>
                         )}
                     </div>
                 </Col>
