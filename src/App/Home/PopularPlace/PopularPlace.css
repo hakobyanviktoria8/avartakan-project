@@ -1,14 +1,19 @@
 .popular{
     min-height: 85vh;
-    border: 2px solid red;
     position: absolute;
     top: 80px;
     width: 100%;
 }
-div[tabindex="0"]{
-    height: 500px !important;
-    background-color: white !important;
+body {
+    height: 50%;
 }
-div[style="url"]{
-    height: 500px !important;
+#img {
+    width: 33vw;
+    border: 1px solid red;
+}
+.swiper-button-next {
+    width: 2vw;
+}
+.slideName {
+    text-align: center;
 }
