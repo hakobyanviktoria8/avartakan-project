@@ -17,7 +17,9 @@
     "react-responsive-carousel": "^3.2.8",
     "react-router-dom": "^6.0.0-beta.0",
     "react-scripts": "3.4.1",
-    "reactstrap": "latest"
+    "reactstrap": "latest",
+    "bootstrap": "^4.5.0",
+    "react-bootstrap": "^1.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
