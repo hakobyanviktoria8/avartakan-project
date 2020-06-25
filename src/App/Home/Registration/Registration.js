@@ -24,9 +24,16 @@ export const Registration = (props) => {
             <h2 className={"title"}>Մուտք գործել</h2>
             {/*<Reg2/>*/}
             <form onSubmit={handleSubmit(onSubmit)}>
-                <input name="firstname" ref={register({ required: true, minLength:3 })} placeholder="First name" />
-                {errors.firstname && errors.firstname.type === "required" && <p>First name is required.</p>}
-                {errors.firstname && errors.firstname.type === "minLength" && <p>First name min length of 3.</p>}<br/><br/>
+                <input
+                    name="firstname"
+                    ref={register({
+                        required: true,
+                        minLength:3
+                    })}
+                    placeholder="First name"
+                />
+                {errors.firstname && errors.firstname.type === "required" && <span>First name is required.</span>}
+                {errors.firstname && errors.firstname.type === "minLength" && <span>First name min length of 3.</span>}<br/><br/>
 
                 <input
                     name="lastname"
@@ -34,27 +41,42 @@ export const Registration = (props) => {
                         required: true,
                         minLength:5
                     })}
-                    placeholder="Last name" />
-                {errors.lastname && errors.lastname.type === "required" && <p>Last name is required.</p>}
-                {errors.lastname && errors.lastname.type === "minLength" && <p>Last name min length of 5.</p>}<br/><br/>
+                    placeholder="Last name"
+                />
+                {errors.lastname && errors.lastname.type === "required" && <span>Last name is required.</span>}
+                {errors.lastname && errors.lastname.type === "minLength" && <span>Last name min length of 5.</span>}<br/><br/>
 
                 <input
                     name="email"
                     ref={register({
                         required: true,
                         minLength:8,
-                        pattern: /^\S+@\S+$/i})}
-                    placeholder="Email" />
-                {errors.email && errors.email.type === "required" && <p>Email is required.</p>}
-                {errors.email && errors.email.type === "minLength" && <p>Email min length of 8.</p>}<br/><br/>
+                        pattern: /^\S+@\S+$/i
+                    })}
+                    placeholder="Email"
+                />
+                {errors.email && errors.email.type === "required" && <span>Email is required.</span>}
+                {errors.email && errors.email.type === "minLength" && <span>Email min length of 8.</span>}<br/><br/>
 
-                <input  name="phone" ref={register({ required: true })} placeholder="Phone 0**-**-**-**" />
-                {errors.phone && errors.phone.type === "required" && <p>Phone number is required.</p>}
-                {errors.phone && errors.phone.type === "minLength" && <p>Phone number fill thats form 0**-**-**-**.</p>}<br/><br/>
+                <input
+                    name="phone"
+                    ref={register({
+                        required: true
+                    })}
+                    placeholder="Phone 0**-**-**-**"
+                />
+                {errors.phone && errors.phone.type === "required" && <span>Phone number is required.</span>}
+                {errors.phone && errors.phone.type === "minLength" && <span>Phone number fill thats form 0**-**-**-**.</span>}<br/><br/>
 
-                <input name="age" ref={register({ min: 8, max: 100, pattern: /\d+/ })}  placeholder="Age" />
-                {errors.age && errors.age.type === "required" && <p>Please enter number for age.</p>}
-                {errors.age && errors.age.type === "min" && <p>Sorry but you are small 8.</p>}<br/><br/>
+                <input
+                    name="age"
+                    ref={register({
+                        min: 8,
+                        max: 100,
+                        pattern: /\d+/
+                    })}
+                    placeholder="Age" />
+                {errors.age && errors.age.type === "required" && <span>Please enter number for age.</span>}<br/><br/>
 
                 {/*<label htmlFor="">Gender</label>*/}
                 {/*<select name="gender" ref={register({ required: true })}>*/}
@@ -65,14 +87,14 @@ export const Registration = (props) => {
                 <input
                     name="gender"
                     type="radio"
-                    value="Male"
+                    value="male"
                     ref={register({ required: true })}/> Male
                 <input
                     name="gender"
                     type="radio"
-                    value="Female"
+                    value="female"
                     ref={register({ required: true })}/> Female
-                {errors.gender && <p>Please select gender.</p>}<br/><br/>
+                {errors.gender && <span>Please select gender.</span>}<br/><br/>
 
                 {/*<div style={{ color: 'red' }}>*/}
                     {/*{Object.keys(errors).length > 0 &&*/}
