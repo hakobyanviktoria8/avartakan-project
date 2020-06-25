@@ -2,10 +2,7 @@ import React from "react";
 import "./Registration.css";
 // import { Container, Col, Row, Button, Form, FormGroup, Label, Input } from 'reactstrap';
 import { useForm } from 'react-hook-form';
-import Reg2 from "./Reg2";
-// import Reg1 from "./Reg1";
-
-const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+// const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
 
 export const Registration = (props) => {
     const { register, handleSubmit,watch, errors, setError } = useForm();
@@ -25,7 +22,7 @@ export const Registration = (props) => {
     return (
         <div className={"registration"}>
             <h2 className={"title"}>Մուտք գործել</h2>
-            <Reg2/>
+            {/*<Reg2/>*/}
             <form onSubmit={handleSubmit(onSubmit)}>
                 <input name="firstname" ref={register({ required: true, minLength:3 })} placeholder="First name" />
                 {errors.firstname && errors.firstname.type === "required" && <p>First name is required.</p>}
