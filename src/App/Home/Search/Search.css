@@ -1,0 +1,46 @@
+.search{
+    min-height: 85vh;
+    position: absolute;
+    top: 60px;
+    width: 100%;
+}
+.dropdown{
+    width: 100%;
+    text-align: left;
+}
+.dropdown-menu{
+    width: 80%;
+}
+.ciran{
+    width: 19vw;
+    position: absolute;
+    top: 40px;
+    left: 4%;
+}
+.nur{
+    width: 20vw;
+    position: absolute;
+    top: 280px;
+    left: 40%;
+}
+.nur3{
+    width: 19vw;
+    position: absolute;
+    top: 40px;
+    right: 4%;
+}
+.duduk{
+     width: 4.5vw;
+     position: absolute;
+     top: 200px;
+    right: 10%;
+    transform: rotate(30deg);
+}
+
+.kamancha{
+    width: 15vw;
+    position: absolute;
+    top: 180px;
+    left: 4%;
+    transform: rotate(-30deg);
+}
