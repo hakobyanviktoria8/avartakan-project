@@ -4,12 +4,12 @@ import "./SelectedItem.css";
 import {Item} from "./Item/Item";
 
 export function SelectedItem(props) {
-    let { section, key } = useParams();
+    let { section, name } = useParams();
     const [itemData, setItemData] = useState([]);
     useEffect(()=>{
         async function fetchItem() {
             try {
-                const response = await fetch(`https://am-places.herokuapp.com/${section}?key=${key}`);
+                const response = await fetch(`https://am-places.herokuapp.com/${section}?name=${name}`);
                 const json = await response.json();
                 setItemData(json);
             } catch (error) {

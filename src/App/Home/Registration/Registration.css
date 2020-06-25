@@ -2,6 +2,9 @@
      min-height: 85vh;
      border: 2px solid red;
      position: absolute;
-     top: 80px;
+     top: 70px;
      width: 100%;
  }
+.reg{
+     margin: 0 auto;
+}

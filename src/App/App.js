@@ -8,8 +8,9 @@ import {SightseeingList} from "./Home/Sightseeing/SightseeingList/SightseeingLis
 import TableWrapper from "./Home/Sightseeing/TableWrapper/TableWrapper";
 import {TableWrapperList} from "./Home/Sightseeing/TableWrapper/TableWrapperList/TableWrapperList";
 import PopularPlace from "./Home/PopularPlace/PopularPlace";
-import Registration from "./Home/Registration/Registration";
 import {SelectedItem} from "./Home/Sightseeing/TableWrapper/SelectedItem/SelectedItem";
+import {Search} from "./Home/Search/Search";
+import {Registration} from "./Home/Registration/Registration";
 
 function App() {
   return (
@@ -22,11 +23,12 @@ function App() {
                           <Route path="/" element={<SightseeingList />} />
                           <Route path=":section" element={<TableWrapper />}>
                               <Route path="/" element={<TableWrapperList />}/>
-                              <Route path=":key" element={<SelectedItem />}/>
+                              <Route path=":name" element={<SelectedItem />}/>
                           </Route>
                       </Route>
                       <Route path="/popular-place" element={<PopularPlace />} />
                       <Route path="/registration" element={<Registration />} />
+                      <Route path="/search" element={<Search />} />
                  </Route>
               </Routes>
           </BrowserRouter>

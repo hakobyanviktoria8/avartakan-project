@@ -10,14 +10,22 @@ import iconEmail from "./icon/email.png";
 import iconWorkTime from "./icon/workTime.png";
 
 export function Item(props) {
-    let { section, key } = useParams();
+    let { section, name } = useParams();
     let source = `Images/${section}/${props.name}`;
     let imgArr = [1,2,3,4,5,6,7,8,9,10,11,12];
 
+    const sliderImg=[];
+    imgArr.map(x=>
+        sliderImg.push(`./${source}/${x}.jpg`)
+    );
+    console.log(sliderImg);
+    
     return(
         <Container>
             <Row>
                 <Col xs="12" sm="10" md="6" lg="6" xl="6" className={"item"}>
+                    {/*<img src={require("./Images/church/Mother-See-of-Holy-Etchmiadzin/1.jpg")}/>*/}
+
                     <h2>{props.header}</h2>
                     <h6>{props.caption}</h6>
                     <p>{props.description}</p>

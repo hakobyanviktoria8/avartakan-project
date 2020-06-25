@@ -24,7 +24,7 @@ export default function Table(props) {
                     rowData.map(item =>
                         <tr key={item.key}>
                             <td className={"imgTD"}>
-                                <Link to={`${item.key}`}>
+                                <Link to={`${item.name}`}>
                                     <img className={"tableImg"} src={item.src} alt={item.altText}/>
                                 </Link>
                                 <p>{item.caption}</p>

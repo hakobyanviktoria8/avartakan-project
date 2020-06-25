@@ -17,6 +17,7 @@ export default function Navigation(props) {
                         <Link className={"mx-3 link"} to="/sightseeing">Տեսարժան վայրեր</Link>
                         <Link className={"mx-3 link"} to="/popular-place">Ամենահայտնի վայրեր</Link>
                         <Link className={"mx-3 link"} to="/registration">Գրանցվել</Link>
+                        <Link className={"mx-3 link"} to="/search">Փնտրել</Link>
                     </Nav>
                 </Collapse>
             </Navbar>
