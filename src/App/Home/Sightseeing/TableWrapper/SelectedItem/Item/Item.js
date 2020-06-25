@@ -8,6 +8,7 @@ import iconAddress from "./icon/address.png";
 import iconPhone from "./icon/phone.png";
 import iconEmail from "./icon/email.png";
 import iconWorkTime from "./icon/workTime.png";
+import ModalComponent from "./ModalComponent";
 
 export function Item(props) {
     let { section, name } = useParams();
@@ -35,6 +36,7 @@ export function Item(props) {
                         {imgArr.map(x=>
                             <img key={x} src={require(`./${source}/${x}.jpg`)}/>
                         )}
+                        <ModalComponent/>
                     </div>
                 </Col>
             </Row>

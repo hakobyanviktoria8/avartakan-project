@@ -4,3 +4,16 @@
     top: 80px;
     width: 100%;
 }
+body {
+    height: 50%;
+}
+#img {
+    width: 33vw;
+    border: 1px solid red;
+}
+.swiper-button-next {
+    width: 2vw;
+}
+.slideName {
+    text-align: center;
+}
