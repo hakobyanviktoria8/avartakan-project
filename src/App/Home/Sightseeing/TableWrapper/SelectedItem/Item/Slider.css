@@ -1,0 +1,23 @@
+.modal-content{
+    height: 500px;
+}
+.carousel .slider-wrapper{
+    height: 330px;
+}
+.sliderImgSize{
+    width: 466px;
+    height: 375px;
+}
+.sliderImgSize img{
+    height: 375px;
+}
+.thumb img{
+    width: 70px;
+    height: 53px;
+}
+.carousel.carousel-slider{
+    height: 375px;
+}
+.control-arrow {
+    height: 330px;
+}
