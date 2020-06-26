@@ -27,7 +27,7 @@ import WineHouses from "./WineHouses";
                 <Link to="culture"><Culture /></Link>
             </Col>
             <Col xs="10" sm="6" md="5" lg="4" xl="3" className={"card1"}>
-                <Link to="popular"><Popular /></Link>
+                <Link to="festivals"><Festivals /></Link>
             </Col>
             <Col xs="10" sm="6" md="5" lg="4" xl="3" className={"card1"}>
                 <Link to="parks"><Parks /></Link>
@@ -45,7 +45,7 @@ import WineHouses from "./WineHouses";
                 <Link to="extreme"><Extreme /></Link>
             </Col>
             <Col xs="10" sm="6" md="5" lg="4" xl="3" className={"card1"}>
-                <Link to="festivals"><Festivals /></Link>
+                <Link to="popular"><Popular /></Link>
             </Col>
             <Col xs="10" sm="6" md="5" lg="4" xl="3" className={"card1"}>
                 <Link to="restaurants"><Restaurants /></Link>

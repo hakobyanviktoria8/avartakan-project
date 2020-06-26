@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./PopularPlace.css";
-import MutipleSlidesPerView from "./PopularTourCardSlider";
+import PopularSlider from "./PopularSlider";
 
 export default function PopularPlace(props) {
     const [itemData, setItemData] = useState([]);
@@ -20,7 +20,7 @@ export default function PopularPlace(props) {
         <div className={"popular"}>
             <h2 className={"title"}>Ամենահայտնի տեղերը</h2>
             {console.log(itemData)}
-            <MutipleSlidesPerView itemData={itemData}/>
+            <PopularSlider itemData={itemData}/>
         </div>
     )
 }

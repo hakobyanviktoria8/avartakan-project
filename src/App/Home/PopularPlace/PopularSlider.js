@@ -3,7 +3,7 @@ import Swiper from 'react-id-swiper';
 import 'swiper/css/swiper.css';
 import './PopularPlace.css';
 
-const MutipleSlidesPerView = (props) => {
+const PopularSlider = (props) => {
     const params = {
       slidesPerView: 3,
       spaceBetween: 1,
@@ -27,5 +27,5 @@ const MutipleSlidesPerView = (props) => {
     )
 };
 
-export default MutipleSlidesPerView;
+export default PopularSlider;
     

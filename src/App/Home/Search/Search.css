@@ -26,7 +26,7 @@
     top: 330px;
     left: 38%;
     transform: rotate(-10deg);
-    height: 200px;
+    height: 230px;
 }
 .nur3{
     width: 19vw;
@@ -37,7 +37,7 @@
 .duduk{
      width: 4.5vw;
      position: absolute;
-     top: 240px;
+     top: 230px;
     right: 10%;
     transform: rotate(30deg);
 }
@@ -45,7 +45,7 @@
 .kamancha{
     width: 15vw;
     position: absolute;
-    top: 240px;
+    top: 230px;
     left: 4%;
     transform: rotate(-30deg);
 }

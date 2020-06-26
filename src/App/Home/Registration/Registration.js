@@ -61,7 +61,8 @@ export const Registration = (props) => {
                 <input
                     name="phone"
                     ref={register({
-                        required: true
+                        required: true,
+                        pattern: /^\d\d\d-\d\d-\d\d-\d\d$/
                     })}
                     placeholder="Phone 0**-**-**-**"
                 />
@@ -78,12 +79,6 @@ export const Registration = (props) => {
                     placeholder="Age" />
                 {errors.age && errors.age.type === "required" && <span>Please enter number for age.</span>}<br/><br/>
 
-                {/*<label htmlFor="">Gender</label>*/}
-                {/*<select name="gender" ref={register({ required: true })}>*/}
-                    {/*<option value="">Select...</option>*/}
-                    {/*<option value="male">Male</option>*/}
-                    {/*<option value="female">Female</option>*/}
-                {/*</select>*/}
                 <input
                     name="gender"
                     type="radio"
@@ -95,6 +90,19 @@ export const Registration = (props) => {
                     value="female"
                     ref={register({ required: true })}/> Female
                 {errors.gender && <span>Please select gender.</span>}<br/><br/>
+
+                <input
+                    type="password"
+                    name="password"
+                    ref={register({
+                        required: true,
+                        minLength:8,
+                        // pattern: /^\S+@\S+$/i
+                    })}
+                    placeholder="Password"
+                />
+                {errors.password && errors.password.type === "required" && <span>Password is required.</span>}
+                {errors.password && errors.password.type === "minLength" && <span>Password min length of 8.</span>}<br/><br/>
 
                 {/*<div style={{ color: 'red' }}>*/}
                     {/*{Object.keys(errors).length > 0 &&*/}
