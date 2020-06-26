@@ -7,13 +7,18 @@
 body {
     height: 50%;
 }
-#img {
-    width: 33vw;
-    border: 1px solid red;
+.img {
+    width: 34vw;
+    height: 33vw;
 }
-.swiper-button-next {
-    width: 2vw;
+.swiper-button-next, .swiper-button-prev{
+    height: 2vw;
 }
-.slideName {
-    text-align: center;
+.slideTitle {
+    margin-left: 15%;
+    font-size: 2vw;
+}
+.slideCaption{
+    margin-left: 20%;
+    font-size: 1.5vw;
 }

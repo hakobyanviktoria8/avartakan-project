@@ -5,8 +5,8 @@ import "./Search.css";
 import ciran from "./img/ciran.png";
 import duduk from "./img/duduk.png";
 import kamancha from "./img/kamancha.png";
-import nur from "./img/nur.png";
 import nur3 from "./img/nur3.png";
+import gorg from "./img/gorg.png";
 
 
 export function Search(props) {
@@ -76,7 +76,7 @@ export function Search(props) {
             <img className={"ciran"} src={ciran} alt=""/>
             <img className={"duduk"} src={duduk} alt=""/>
             <img className={"kamancha"} src={kamancha} alt=""/>
-            <img className={"nur"} src={nur} alt=""/>
+            <img className={"gorg"} src={gorg} alt=""/>
             <img className={"nur3"} src={nur3} alt=""/>
         </div>
     )

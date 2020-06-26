@@ -7,7 +7,7 @@ const ModalComponent = (props) => {
     buttonLabel,
     className
   } = props;
-
+    console.log(props.sliderImg);
   const [modal, setModal] = useState(false);
 
   const toggle = () => setModal(!modal);
@@ -18,11 +18,11 @@ const ModalComponent = (props) => {
       <Button color="secondary" className="w-100 " onClick={toggle}>{buttonLabel}Տեսնել ավելին</Button>
       <Modal isOpen={modal} toggle={toggle} className={className} external={externalCloseBtn}>
         <ModalBody>
-          <Slider/>
+          <Slider img={props.sliderImg}/>
         </ModalBody>
-        <ModalFooter>
-          <Button color="secondary" onClick={toggle}>Փակել</Button>
-        </ModalFooter>
+        {/*<ModalFooter>*/}
+          {/*<Button color="secondary" onClick={toggle}>Փակել</Button>*/}
+        {/*</ModalFooter>*/}
       </Modal>
     </div>
   );

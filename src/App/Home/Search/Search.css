@@ -11,17 +11,22 @@
 .dropdown-menu{
     width: 80%;
 }
+.carousel .control-dots .dot{
+    background-color: #a7a7a7;
+}
 .ciran{
     width: 19vw;
     position: absolute;
     top: 40px;
     left: 4%;
 }
-.nur{
-    width: 20vw;
+.gorg{
+    width: 26vw;
     position: absolute;
-    top: 300px;
-    left: 40%;
+    top: 330px;
+    left: 38%;
+    transform: rotate(-10deg);
+    height: 200px;
 }
 .nur3{
     width: 19vw;

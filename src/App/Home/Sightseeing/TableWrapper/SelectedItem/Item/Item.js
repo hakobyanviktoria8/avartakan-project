@@ -36,7 +36,7 @@ export function Item(props) {
                         {imgArr.map(x=>
                             <img key={x} src={require(`./${source}/${x}.jpg`)}/>
                         )}
-                        <ModalComponent/>
+                        <ModalComponent sliderImg={sliderImg}/>
                     </div>
                 </Col>
             </Row>
