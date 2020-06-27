@@ -1,28 +1,41 @@
-import React from "react";
+import React, {useCallback, useContext} from "react";
 import "./Registration.css";
-// import { Container, Col, Row, Button, Form, FormGroup, Label, Input } from 'reactstrap';
 import { useForm } from 'react-hook-form';
-// const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+import app from "../Config/firebase";
+import {createUser} from "../../../firestore";
+import {AuthContext} from "../AuthProvider";
+import { Navigate, useNavigate } from 'react-router-dom';
+
 
 export const Registration = (props) => {
-    const { register, handleSubmit,watch, errors, setError } = useForm();
-    const onSubmit = (data) => {
-        console.log(data);
-    };
-    // const onSubmit = async data => {
-    //     await sleep(2000);
-    //     if (data.username === 'bill') {
-    //         alert(JSON.stringify(data));
-    //     } else {
-    //         alert('There is error');
-    //         setError('username', 'validate');
-    //     }
-    // };
-    // console.log(watch("firstname"));
+    const { register, handleSubmit, errors } = useForm();
+    let navigate = useNavigate();
+
+    const onSubmit = useCallback(
+        async data => {
+            console.log(data);
+            try {
+                await app
+                    .auth()
+                    .createUserWithEmailAndPassword(data.email, data.password)
+                    .then(result => {
+                        console.log(result);
+                        createUser(result.user.uid, data.firstname, data.lastname)
+                    });
+                navigate("/login");
+            } catch (error) {
+                alert(error);
+            }
+        }
+    );
+    const { currentUser } = useContext(AuthContext);
+
+    if (currentUser) {
+        return <Navigate to="/" />;
+    }
     return (
         <div className={"registration"}>
-            <h2 className={"title"}>Մուտք գործել</h2>
-            {/*<Reg2/>*/}
+            <h2 className={"title"}>Գրանցվել</h2>
             <form onSubmit={handleSubmit(onSubmit)}>
                 <input
                     name="firstname"
@@ -97,17 +110,12 @@ export const Registration = (props) => {
                     ref={register({
                         required: true,
                         minLength:8,
-                        // pattern: /^\S+@\S+$/i
                     })}
                     placeholder="Password"
                 />
                 {errors.password && errors.password.type === "required" && <span>Password is required.</span>}
                 {errors.password && errors.password.type === "minLength" && <span>Password min length of 8.</span>}<br/><br/>
 
-                {/*<div style={{ color: 'red' }}>*/}
-                    {/*{Object.keys(errors).length > 0 &&*/}
-                    {/*'There are errors, check your console.'}*/}
-                {/*</div>*/}
                 <input type="submit" />
             </form>
         </div>
