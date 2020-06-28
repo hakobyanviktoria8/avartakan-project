@@ -1,5 +1,5 @@
 .pesonCard{
-    border: 2px solid red;
+    border: 2px solid gray;
     width: 250px;
     height: 300px;
     position: absolute;
@@ -10,4 +10,11 @@
     background-color: white;
     padding: 10px;
     text-align: center;
+    color: #666666;
+}
+.pesonCard button{
+    padding: 5px 20px;
+}
+.pesonCard .logo{
+    width: 50px;
 }

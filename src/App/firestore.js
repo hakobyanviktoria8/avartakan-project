@@ -5,14 +5,15 @@ import app from "./Home/Auth/Config/firebase";
 
 const db = app.firestore();
 
-export const createUser = (userId, firstname, lastname) => {
-    // console.log(userId + "#firstName: " + firstname + "#lastname: " + lastname)
+export const createUser = (userId, firstname, lastname, email, phone) => {
     return db.collection('users')
         .doc(userId)
         .set({
             created: firebase.firestore.FieldValue.serverTimestamp(),
             firstName: firstname,
-            lastName: lastname
+            lastName: lastname,
+            email: email,
+            phone:phone
         });
 };
 

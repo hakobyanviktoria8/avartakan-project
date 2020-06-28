@@ -1,15 +1,11 @@
 import React, { useState } from 'react';
-import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
+import { Button, Modal, ModalBody } from 'reactstrap';
 import Slider from "./Slider";
 
 const ModalComponent = (props) => {
-  const {
-    buttonLabel,
-    className
-  } = props;
-    console.log(props.sliderImg);
+  const { buttonLabel, className } = props;
+  // console.log(props.sliderImg);
   const [modal, setModal] = useState(false);
-
   const toggle = () => setModal(!modal);
 
   const externalCloseBtn = <button className="close" style={{ position: 'absolute', top: '15px', right: '15px' }} onClick={toggle}>&times;</button>;
@@ -20,11 +16,8 @@ const ModalComponent = (props) => {
         <ModalBody>
           <Slider img={props.sliderImg}/>
         </ModalBody>
-        {/*<ModalFooter>*/}
-          {/*<Button color="secondary" onClick={toggle}>Փակել</Button>*/}
-        {/*</ModalFooter>*/}
       </Modal>
     </div>
   );
-}
+};
 export default ModalComponent;

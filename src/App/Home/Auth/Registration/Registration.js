@@ -8,31 +8,35 @@ import { Navigate, useNavigate } from 'react-router-dom';
 
 
 export const Registration = (props) => {
+    //react-hook-form
     const { register, handleSubmit, errors } = useForm();
+    //react-router-dom
     let navigate = useNavigate();
+    //useContext
+    const { currentUser } = useContext(AuthContext);
 
     const onSubmit = useCallback(
         async data => {
-            // console.log(data);
+            console.log(data);
             try {
-                let result = await app
-                    .auth()
-                    .createUserWithEmailAndPassword(data.email, data.password);
-                await createUser(result.user.uid, data.firstname, data.lastname);
+                let result = await app.auth().createUserWithEmailAndPassword(data.email, data.password);
+                //firestore add user
+                await createUser(result.user.uid, data.firstname, data.lastname, data.email, data.phone);
                 navigate("/login");
             } catch (error) {
-                alert(error);
+                alert("Տվյալ էլեկտրոնային հասցեն արդեն զբաղված է: Խնդրում ենք փորձել մեկ այլ տարբերակ:");
             }
         }
     );
-    const { currentUser } = useContext(AuthContext);
 
     if (currentUser) {
         return <Navigate to="/" />;
     }
+
     return (
         <div className={"registration"}>
             <h2 className={"title"}>Գրանցվել</h2>
+
             <form onSubmit={handleSubmit(onSubmit)}>
                 <input
                     name="firstname"

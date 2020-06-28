@@ -19,14 +19,12 @@ export function Item(props) {
     imgArr.map(x=>
         sliderImg.push(`./${source}/${x}.jpg`)
     );
-    console.log(sliderImg);
+    // console.log(sliderImg);
     
     return(
         <Container>
             <Row>
                 <Col xs="12" sm="10" md="6" lg="6" xl="6" className={"item"}>
-                    {/*<img src={require("./Images/church/Mother-See-of-Holy-Etchmiadzin/1.jpg")}/>*/}
-
                     <h2>{props.header}</h2>
                     <h6>{props.caption}</h6>
                     <p>{props.description}</p>
@@ -43,9 +41,16 @@ export function Item(props) {
 
             <Row>
                 <Col>
+                    {console.log(props.coordinates)}
                     <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d465883.9503245908!2d40.1618351!3d44.2889266!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x406aca1c0c3d6bc3%3A0xfbfcc202cc1fcfbc!2sHnaberd%2C+Armenia!5e0!3m2!1sen!2s!4v1525446123836"
-                    width="100%" height="400" frameBorder="0" style={{border:"0"}} allowFullScreen="">
+                        src={props.coordinates}
+                        width="100%"
+                        height="400"
+                        frameBorder="0"
+                        style={{border:"0"}}
+                        allowFullScreen=""
+                        aria-hidden="false"
+                        tabIndex="0">
                     </iframe>
                 </Col>
             </Row>

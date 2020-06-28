@@ -4,7 +4,6 @@ import {Collapse, Navbar, NavbarToggler, Nav} from 'reactstrap';
 import {Link} from "react-router-dom";
 import logo from "./logo.png";
 import { AuthContext } from "../Auth/AuthProvider";
-import app from "../Auth/Config/firebase";
 import {Welcome} from "../Auth/Welcome/Welcome";
 
 export default function Navigation(props) {
@@ -22,11 +21,7 @@ export default function Navigation(props) {
                         <Link className={"mx-3 link"} to="/popular-place">Ամենահայտնի վայրեր</Link>
 
                         {!!currentUser ? (
-                            <>
-                                <Welcome/>
-                                {/*Welcome {currentUser.firstName} !!!*/}
-                                {/*<button onClick={() => app.auth().signOut()}>Log out</button>*/}
-                            </>
+                            <Welcome/>
                         ) : (
                             <>
                                 <Link className={"mx-3 link"} to="/registration">Գրանցվել</Link>
