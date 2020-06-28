@@ -6,6 +6,7 @@ import app from "./Home/Auth/Config/firebase";
 const db = app.firestore();
 
 export const createUser = (userId, firstname, lastname) => {
+    // console.log(userId + "#firstName: " + firstname + "#lastname: " + lastname)
     return db.collection('users')
         .doc(userId)
         .set({
@@ -16,7 +17,7 @@ export const createUser = (userId, firstname, lastname) => {
 };
 
 export const getUser = userId => {
-    console.log(userId);
+    // console.log(userId);
     return db.collection('users')
         .doc(userId)
         .get();

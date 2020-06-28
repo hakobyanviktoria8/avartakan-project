@@ -13,15 +13,12 @@ export const Registration = (props) => {
 
     const onSubmit = useCallback(
         async data => {
-            console.log(data);
+            // console.log(data);
             try {
-                await app
+                let result = await app
                     .auth()
-                    .createUserWithEmailAndPassword(data.email, data.password)
-                    .then(result => {
-                        console.log(result);
-                        createUser(result.user.uid, data.firstname, data.lastname)
-                    });
+                    .createUserWithEmailAndPassword(data.email, data.password);
+                await createUser(result.user.uid, data.firstname, data.lastname);
                 navigate("/login");
             } catch (error) {
                 alert(error);

@@ -8,8 +8,7 @@ export const AuthProvider = ({ children }) => {
     const [pending, setPending] = useState(true);
 
     useEffect(() => {
-        app.auth()
-            .onAuthStateChanged(async (user) => {
+        app.auth().onAuthStateChanged(async (user) => {
             console.log(user);
             if (user != null) {
                 let userDetails = await getUser(user.uid);
@@ -22,7 +21,7 @@ export const AuthProvider = ({ children }) => {
             setPending(false)
         });
     }, []);
-
+    //add logo__________________________________
     if(pending){
         return <>Loading...</>
     }

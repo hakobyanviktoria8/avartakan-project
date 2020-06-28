@@ -5,6 +5,7 @@ import {Link} from "react-router-dom";
 import logo from "./logo.png";
 import { AuthContext } from "../Auth/AuthProvider";
 import app from "../Auth/Config/firebase";
+import {Welcome} from "../Auth/Welcome/Welcome";
 
 export default function Navigation(props) {
     const [isOpen, setIsOpen] = useState(false);
@@ -22,8 +23,9 @@ export default function Navigation(props) {
 
                         {!!currentUser ? (
                             <>
-                                Welcome {currentUser.firstName} !!!
-                                <button onClick={() => app.auth().signOut()}>Log out</button>
+                                <Welcome/>
+                                {/*Welcome {currentUser.firstName} !!!*/}
+                                {/*<button onClick={() => app.auth().signOut()}>Log out</button>*/}
                             </>
                         ) : (
                             <>
