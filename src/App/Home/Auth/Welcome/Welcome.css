@@ -1,0 +1,13 @@
+.pesonCard{
+    border: 2px solid red;
+    width: 250px;
+    height: 300px;
+    position: absolute;
+    border-radius: 5px;
+    right: 2%;
+    z-index: 3;
+    top: 90px;
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+}
