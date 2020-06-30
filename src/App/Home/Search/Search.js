@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Container, Row, Col } from 'reactstrap';
-import { useLocation } from "react-router-dom";
+import { useLocation,useHistory } from "react-router-dom";
 import "./Search.css";
 import ciran from "./img/ciran.png";
 import duduk from "./img/duduk.png";
@@ -78,8 +78,8 @@ export function Search(props) {
                                 </select>
                             </label>
                             <input type="submit" value="Փնտրել" />
-                            {show &&
-                            <Item section= {valueSection} name={valueName} />}
+                            {/*{show &&*/}
+                            {/*<Item section= {valueSection} name={valueName} />}*/}
                         </form>
                     </Col>
                 </Row>

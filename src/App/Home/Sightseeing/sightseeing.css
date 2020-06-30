@@ -8,9 +8,14 @@
     text-align: center;
     font-size: 3.5vw;
     margin: 35px auto 50px;
+    color: gray;
 }
 .subtitle{
     text-align: center;
+    color: gray;
+}
+.subtitle:hover{
+    text-decoration: none;
 }
 .carousel-inner{
     height: 370px;
