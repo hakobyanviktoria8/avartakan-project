@@ -25,7 +25,7 @@ export function Search(props) {
                             <label>
                                 <span>Բնագավառ</span>
                                 <select className={"dropdown"}>
-                                    <option value="grapefruit">Grapefruit</option>
+                                    <option value="church">Grapefruit</option>
                                     <option value="lime">Lime</option>
                                     <option value="coconut">Coconut</option>
                                     <option value="mango">Mango</option>

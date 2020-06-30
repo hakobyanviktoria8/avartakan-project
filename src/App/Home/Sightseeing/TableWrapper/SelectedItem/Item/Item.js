@@ -19,7 +19,7 @@ export function Item(props) {
     imgArr.map(x=>
         sliderImg.push(`./${source}/${x}.jpg`)
     );
-    // console.log(sliderImg);
+    console.log(sliderImg);
     
     return(
         <Container>
@@ -34,6 +34,7 @@ export function Item(props) {
                         {imgArr.map(x=>
                             <img key={x} src={require(`./${source}/${x}.jpg`)}/>
                         )}
+                        {console.log(source)}
                         <ModalComponent sliderImg={sliderImg}/>
                     </div>
                 </Col>
