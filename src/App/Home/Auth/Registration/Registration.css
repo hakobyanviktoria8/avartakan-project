@@ -1,13 +1,23 @@
 .registration{
      min-height: 85vh;
-     border: 2px solid red;
+     /*border: 2px solid red;*/
      position: absolute;
      top: 70px;
      width: 100%;
  }
-.reg{
+.gender {
+     position: absolute;
+     left: 0;
+     top: 7px;
+}
+.colSize {
      margin: 0 auto;
 }
-.registration span{
-     color: rgba(117, 117, 117, 0.82);
+.colSize input{
+     width: 100%;
+     border-radius: 10px;
+     outline: none;
+}
+.colSize span{
+     color: #ffa1a0;
 }
