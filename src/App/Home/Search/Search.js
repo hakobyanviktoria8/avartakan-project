@@ -36,7 +36,6 @@ export function Search(props) {
     const handleSubmit = (event) => {
         event.preventDefault();
         setShow(true);
-
     };
     return(
         <div className={"search"}>
