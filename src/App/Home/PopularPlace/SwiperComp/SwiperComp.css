@@ -1,0 +1,43 @@
+.App {
+    width: 100vw;
+    height: 65vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+.swiperMainContainer {
+    flex: 1;
+    padding-top: 20px;
+}
+.swiper-container {
+    width: 100vw;
+    height: 100%;
+    overflow: hidden;
+}
+.swiper-slide {
+    width: 100%;
+    max-width: 300px;
+    height: calc(100% - 50px);
+    text-align: center;
+    box-shadow: -1px 15px 30px -12px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: 25px;
+    font-weight: bold;
+    align-items: center;
+    background-color: white;
+    color: gray;
+    border-radius: 10px;
+    padding: 10px;
+}
+.swiper-slide div {
+    width: inherit;
+    height: inherit;
+}
+.imgCardHolder img {
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+}
