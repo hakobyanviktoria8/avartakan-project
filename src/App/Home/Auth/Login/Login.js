@@ -30,30 +30,25 @@ export const Login = (props) => {
     return (
         <div className={"login"}>
             <h2 className={"title"}>Մուտք գործել</h2>
+            <Container>
             <form onSubmit={handleLogin}>
-                <label>
-                    Email
-                    <input name="email" type="email" placeholder="Email" />
-                </label>
-                <label>
-                    Password
-                    <input name="password" type="password" placeholder="Password" />
-                </label>
-                <button type="submit">Log in</button>
-                {/*<div className="row">*/}
-                    {/*<div className="col-75">*/}
-                        {/*<input className={"loginInput"} type="email" name="Email" placeholder="Enter your email"/>*/}
-                    {/*</div>*/}
-                {/*</div>*/}
-                {/*<div className="row">*/}
-                    {/*<div className="col-75">*/}
-                        {/*<input className={"loginInput"} type="password" name="pssword" placeholder="Enter your password"/>*/}
-                    {/*</div>*/}
-                {/*</div>*/}
-                {/*<div className="row">*/}
-                    {/*<input className={"loginBtn"} type="submit" value="Մուտք"/>*/}
-                {/*</div>*/}
+                <Row className="my-3">
+                    <Col xs="10" sm="8" md="6" lg="5" xl="4" className="colSize">
+                        <input className={"p-2"} name="email" type="email" placeholder="Email" />
+                    </Col>
+                </Row>
+                <Row className="my-3">
+                    <Col xs="10" sm="8" md="6" lg="5" xl="4" className="colSize">
+                        <input className={"p-2"} name="password" type="password" placeholder="Password" />
+                    </Col>
+                </Row>
+                <Row className="my-3">
+                    <Col xs="10" sm="8" md="6" lg="5" xl="4" className="colSize">
+                        <input type="submit"  className={"p-2"} value="Գրանցվել" />
+                    </Col>
+                </Row>
             </form>
+            </Container>
         </div>
     );
 };
