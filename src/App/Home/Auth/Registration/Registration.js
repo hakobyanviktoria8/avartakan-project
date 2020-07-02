@@ -96,7 +96,7 @@ export const Registration = (props) => {
                         {errors.phone && errors.phone.type === "minLength" && <span>Phone number fill thats form 0**-**-**-**.</span>}
                     </Col>
                 </Row>
-                <Row className="mt-3">
+                <Row className="my-3">
                     <Col xs="10" sm="8" md="6" lg="5" xl="4" className="colSize">
                         <input className={"p-2"}
                             name="age"
@@ -130,7 +130,7 @@ export const Registration = (props) => {
                         {errors.gender && <span>Please select gender.</span>}
                     </Col>
                 </Row>
-                <Row className="mb-3">
+                <Row className="my-3">
                     <Col xs="10" sm="8" md="6" lg="5" xl="4" className="colSize">
                         <input className={"p-2"}
                             type="password"
