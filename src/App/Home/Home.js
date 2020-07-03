@@ -7,7 +7,7 @@ export function Home(props) {
     return (
         <>
             <Navigation/>
-            <Outlet/>
+            <Outlet />
             {/*<Footer/>*/}
         </>
     );

@@ -6,6 +6,7 @@ import {Item} from "./Item/Item";
 export function SelectedItem(props) {
     let { section, name } = useParams();
     const [itemData, setItemData] = useState([]);
+
     useEffect(()=>{
         async function fetchItem() {
             try {

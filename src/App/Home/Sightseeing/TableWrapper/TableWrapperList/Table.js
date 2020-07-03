@@ -1,10 +1,11 @@
-import React, {Fragment, useEffect, useState} from "react";
+import React, { useEffect, useState} from "react";
 import "./Table.css";
 import {Link} from "react-router-dom";
 import { Container, Row, Col } from 'reactstrap';
 
 export default function Table(props) {
     const [rowData,setRowData] = useState([]);
+
     useEffect(()=>{
         const fetchData  = async() => {
             let response = await fetch(props.url);
@@ -17,6 +18,7 @@ export default function Table(props) {
         };
         fetchData();
     },[]);
+
     return(
             <Container>
                 {
