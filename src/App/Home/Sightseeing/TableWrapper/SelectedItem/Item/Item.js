@@ -12,7 +12,7 @@ import ModalComponent from "./ModalComponent";
 
 export function Item(props) {
     let { section, name } = useParams();
-    let source = `Images/${section}/${props.name}`;
+    let source = `Images/${!section && props.valueSection}/${props.name}`;
     let imgArr = [1,2,3,4,5,6,7,8,9,10,11,12];
 
     const sliderImg=[];
@@ -34,7 +34,6 @@ export function Item(props) {
                         {imgArr.map(x=>
                             <img key={x} src={require(`./${source}/${x}.jpg`)}/>
                         )}
-                        {console.log(source)}
                         <ModalComponent sliderImg={sliderImg}/>
                     </div>
                 </Col>
@@ -85,13 +84,13 @@ export function Item(props) {
                             <table className={"workTime"}>
                                 <thead>
                                 <tr>
-                                    <td>1</td>
-                                    <td>2</td>
-                                    <td>3</td>
-                                    <td>4</td>
-                                    <td>5</td>
-                                    <td>6</td>
-                                    <td>7</td>
+                                    <td>Երկ</td>
+                                    <td>Երք</td>
+                                    <td>Չոր</td>
+                                    <td>Հնգ</td>
+                                    <td>Ուրբ</td>
+                                    <td>Շաբ</td>
+                                    <td>Կիր</td>
                                 </tr>
                                 </thead>
                                 <tbody>

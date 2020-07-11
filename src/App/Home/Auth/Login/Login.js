@@ -44,7 +44,7 @@ export const Login = (props) => {
                 </Row>
                 <Row className="my-3">
                     <Col xs="10" sm="8" md="6" lg="5" xl="4" className="colSize">
-                        <input type="submit"  className={"p-2"} value="Գրանցվել" />
+                        <input type="submit"  className={"p-2"} value="Մուտք" />
                     </Col>
                 </Row>
             </form>

@@ -10,7 +10,7 @@ const ModalComponent = (props) => {
 
   const externalCloseBtn = <button className="close" style={{ position: 'absolute', top: '15px', right: '15px' }} onClick={toggle}>&times;</button>;
   return (
-    <div>
+    <div className={"my-2"}>
       <Button color="secondary" className="w-100 " onClick={toggle}>{buttonLabel}Տեսնել ավելին</Button>
       <Modal isOpen={modal} toggle={toggle} className={className} external={externalCloseBtn}>
         <ModalBody>

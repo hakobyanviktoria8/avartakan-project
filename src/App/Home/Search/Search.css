@@ -6,7 +6,6 @@
 }
 .dropdown{
     width: 100%;
-    text-align: left;
 }
 .dropdown-menu{
     width: 80%;
@@ -48,4 +47,11 @@
     top: 230px;
     left: 4%;
     transform: rotate(-30deg);
+}
+.searchItem {
+    margin-top: 30px;
+}
+.selected2List{
+    margin: 0 auto;
+    border: 1px solid red;
 }
