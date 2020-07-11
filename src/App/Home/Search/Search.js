@@ -20,7 +20,9 @@ export function Search(props) {
         setValueSection(event.target.value);
         fetch(`https://am-places.herokuapp.com/${event.target.value}`)
             .then(response => response.json())
-            .then(response => setOptions(response))
+            .then(response => setOptions(response));
+        // options && setOptions("")
+        // console.log(options)
     };
 
     const handleChangeName =(event)=>{

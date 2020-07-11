@@ -1,7 +1,8 @@
 .login {
-    min-height: 85vh;
-    position: absolute;
-    top: 70px;
+    min-height: 75vh;
+    position: relative;
+    margin-bottom: 80px;
+    top: 80px;
     width: 100%;
 }
 .colSize {

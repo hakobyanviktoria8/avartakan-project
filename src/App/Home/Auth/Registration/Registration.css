@@ -1,8 +1,8 @@
 .registration{
      min-height: 85vh;
-     /*border: 2px solid red;*/
-     position: absolute;
-     top: 70px;
+     position: relative;
+     margin-bottom: 60px;
+     top: 80px;
      width: 100%;
  }
 .gender {
