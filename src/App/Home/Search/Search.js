@@ -53,54 +53,53 @@ export function Search(props) {
             <h2 className={"title"}>Որոնել</h2>
             <Container>
                 <Row className={"selected2List"}>
-                    <Col xs="0" sm="0" md="0" lg="1" xl="2"> </Col>
-                    <Col xs="12" sm="10" md="6" lg="5" xl="4">
-                        <form >
-                            {/*<FormGroup row>*/}
-                                {/*<Label for="exampleSelect" sm={2}>Select</Label>*/}
-                                {/*<Col sm={10}>*/}
-                                    {/*<Input type="select" name="select" id="exampleSelect">*/}
-                                        {/*<option>1</option>*/}
-                                        {/*<option>2</option>*/}
-                                        {/*<option>3</option>*/}
-                                        {/*<option>4</option>*/}
-                                        {/*<option>5</option>*/}
-                                    {/*</Input>*/}
-                                {/*</Col>*/}
-                            {/*</FormGroup>*/}
-                            <label>
-                                <span>Բնագավառ</span>
-                                <select className={"dropdown"}  value={valueSection} onChange={handleChange}>
-                                    <option value="church">Եկեղեցիներ</option>
-                                    <option value="museums">Թանգարաններ</option>
-                                    <option value="culture">Մշակույթ</option>
-                                    <option value="festivals">Փառատոներ</option>
-                                    <option value="parks">Այգիներ</option>
-                                    <option value="lakes">Լճեր</option>
-                                    <option value="mountains">Լեռնաշխարհ</option>
-                                    <option value="waterfalls">Ջրվեժներ</option>
-                                    <option value="extreme">Էքստրիմ</option>
-                                    <option value="popular">Ամենահայտնի</option>
-                                    <option value="restaurants">Ռեստորաններ</option>
-                                    <option value="winehouses">Գինետներ</option>
-                                </select>
-                            </label>
-                        </form>
+                    <Col xs="0" sm="0" md="0" lg="0" xl="2"> </Col>
+                    <Col xs="12" sm="10" md="6" lg="6" xl="4" className={"text-center"}>
+                        <Label for="exampleSelect" >Բնագավառ</Label>
                     </Col>
-                    <Col xs="12" sm="10" md="6" lg="5" xl="4">
-                        <form onSubmit={handleSubmit}>
-                            <label>
-                                <span>Գտնված տվյալներ</span>
-                                <select className={"dropdown"} value={valueName} onChange={handleChangeName}>
+                    <Col xs="12" sm="10" md="6" lg="6" xl="4" className={"text-center"}>
+                        <Label for="exampleSelect" >Գտնված տվյալներ</Label>
+                    </Col>
+                </Row>
+                <Row>
+                    <Col xs="0" sm="0" md="0" lg="0" xl="2"> </Col>
+                    <Col xs="12" sm="10" md="6" lg="6" xl="4" className={"m-1"}>
+                        <Form >
+                            <FormGroup row>
+
+                                    <Input className={"dropdown"}  value={valueSection} onChange={handleChange} type="select" name="select" id="exampleSelect">
+                                        <option value="church">Եկեղեցիներ</option>
+                                        <option value="museums">Թանգարաններ</option>
+                                        <option value="culture">Մշակույթ</option>
+                                        <option value="festivals">Փառատոներ</option>
+                                        <option value="parks">Այգիներ</option>
+                                        <option value="lakes">Լճեր</option>
+                                        <option value="mountains">Լեռնաշխարհ</option>
+                                        <option value="waterfalls">Ջրվեժներ</option>
+                                        <option value="extreme">Էքստրիմ</option>
+                                        <option value="popular">Ամենահայտնի</option>
+                                        <option value="restaurants">Ռեստորաններ</option>
+                                        <option value="winehouses">Գինետներ</option>
+                                    </Input>
+                            </FormGroup>
+                        </Form>
+                    </Col>
+                    <Col xs="12" sm="10" md="6" lg="5" xl="4" className={"m-1"}>
+                        <Form onSubmit={handleSubmit}>
+                            <FormGroup row>
+                                <Input className={"dropdown"}  value={valueName} onChange={handleChangeName} type="select" name="select" id="exampleSelect">
                                     {
                                         options.map(item =>
                                             <option key={item.key} value={item.name}>{item.header}</option>
                                         )
                                     }
-                                </select>
-                            </label>
-                            <input type="submit" value="Փնտրել" />
-                        </form>
+                                </Input>
+                                <Col xs="6" sm="6" md="6" lg="6" xl="6"> </Col>
+                                <Col xs="6" sm="6" md="6" lg="6" xl="6">
+                                    <Input type="submit" value="Փնտրել" className={"m-1"}/>
+                                </Col>
+                            </FormGroup>
+                        </Form>
                     </Col>
                 </Row>
                 <Row>
