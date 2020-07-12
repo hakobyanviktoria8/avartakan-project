@@ -27,7 +27,7 @@ export function Welcome(props) {
                         <span>{currentUser.email}</span><br/>
                         <span>{currentUser.phone}</span><br/>
 
-                        <SlackMessageModal/>
+                        <SlackMessageModal />
 
                         <button onClick={() => app.auth().signOut()}>Դուրս գալ</button>
                     </div>
