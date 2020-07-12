@@ -64,7 +64,7 @@ export const Registration = (props) => {
                             placeholder="Last name"
                         />
                         {errors.lastname && errors.lastname.type === "required" && <span>Last name is required.</span>}
-                        {errors.lastname && errors.lastname.type === "minLength" && <span>Last name min length of 5.</span>}
+                        {errors.lastname && errors.lastname.type === "minLength" && <span>Last name min length of 4.</span>}
                     </Col>
                 </Row>
                 <Row className="my-3">
