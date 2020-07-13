@@ -22,6 +22,7 @@ function App() {
                   <Routes>
                       <Route path="/" element={<Home />}>
                           <Route path="/" element={<Header/>}/>
+                          <Route path="/avartakan-project" element={<Header/>}/>
                           <Route path="sightseeing" element={<Sightseeing />}>
                               <Route path="/" element={<SightseeingList />} />
                               <Route path=":section" element={<TableWrapper />}>

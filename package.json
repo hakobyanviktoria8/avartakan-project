@@ -2,7 +2,7 @@
   "name": "avartakan-project",
   "version": "0.1.0",
   "private": true,
-  "homepage":"http://hakobyanviktoria8.github.io/avartakan-project",
+  "homepage": "http://hakobyanviktoria8.github.io/avartakan-project",
   "dependencies": {
     "@material-ui/core": "^4.10.2",
     "@testing-library/jest-dom": "^4.2.4",
@@ -27,8 +27,8 @@
     "firebase": "^7.15.5"
   },
   "scripts": {
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
