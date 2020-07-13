@@ -18,7 +18,7 @@ class Card extends React.Component{
         return (
             <Border>
                 <div>
-                    {console.log(this.state.items)}
+                    {/*{console.log(this.state.items)}*/}
                     <UncontrolledCarousel items={this.state.items}/>
                     <h3 className={"subtitle"}>{this.props.title}</h3>
                 </div>

@@ -2,6 +2,7 @@ import React, { useEffect, useState} from "react";
 import "./Table.css";
 import {Link} from "react-router-dom";
 import { Container, Row, Col } from 'reactstrap';
+import LikeButton from "./Like/Like";
 
 export default function Table(props) {
     const [rowData,setRowData] = useState([]);
@@ -33,6 +34,9 @@ export default function Table(props) {
                             <Col xs="12" sm="12" md="8" lg="9" xl="9">
                                 <div className={"descr"}>
                                     <h4>{item.header}</h4>
+
+                                    <LikeButton itemId = {item.key}/>
+
                                     <p><b>{item.address}</b></p>
                                     <p>{item.description}</p>
                                 </div>
