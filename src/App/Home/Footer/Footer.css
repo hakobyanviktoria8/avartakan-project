@@ -2,9 +2,10 @@
     padding: 25px;
     background: #f8f9fa;
     position: relative;
-    height: 80px;
+    height: 100px;
     margin: 0;
     width: 100%;
     color: gray;
     font-size: 12px;
+    text-align: center;
 }
