@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/avartakan-project/static/css/main.61457d35.chunk.css",
-    "main.js": "/avartakan-project/static/js/main.95c34e7f.chunk.js",
-    "main.js.map": "/avartakan-project/static/js/main.95c34e7f.chunk.js.map",
+    "main.js": "/avartakan-project/static/js/main.92803771.chunk.js",
+    "main.js.map": "/avartakan-project/static/js/main.92803771.chunk.js.map",
     "runtime-main.js": "/avartakan-project/static/js/runtime-main.33403f9b.js",
     "runtime-main.js.map": "/avartakan-project/static/js/runtime-main.33403f9b.js.map",
     "static/css/2.127ff0bb.chunk.css": "/avartakan-project/static/css/2.127ff0bb.chunk.css",
     "static/js/2.5fb86c72.chunk.js": "/avartakan-project/static/js/2.5fb86c72.chunk.js",
     "static/js/2.5fb86c72.chunk.js.map": "/avartakan-project/static/js/2.5fb86c72.chunk.js.map",
     "index.html": "/avartakan-project/index.html",
-    "precache-manifest.1f4707b3e0360f4b2bdb7480bd4ba074.js": "/avartakan-project/precache-manifest.1f4707b3e0360f4b2bdb7480bd4ba074.js",
+    "precache-manifest.ed6c0efb83094e122b7070716e8c5f35.js": "/avartakan-project/precache-manifest.ed6c0efb83094e122b7070716e8c5f35.js",
     "service-worker.js": "/avartakan-project/service-worker.js",
     "static/css/2.127ff0bb.chunk.css.map": "/avartakan-project/static/css/2.127ff0bb.chunk.css.map",
     "static/css/main.61457d35.chunk.css.map": "/avartakan-project/static/css/main.61457d35.chunk.css.map",
@@ -40,6 +40,6 @@
     "static/css/2.127ff0bb.chunk.css",
     "static/js/2.5fb86c72.chunk.js",
     "static/css/main.61457d35.chunk.css",
-    "static/js/main.95c34e7f.chunk.js"
+    "static/js/main.92803771.chunk.js"
   ]
 }
