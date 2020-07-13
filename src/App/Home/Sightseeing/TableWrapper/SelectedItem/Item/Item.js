@@ -12,7 +12,7 @@ import ModalComponent from "./ModalComponent";
 
 export function Item(props) {
     let { section, name } = useParams();
-    let source = `Images/${!section && props.valueSection}/${props.name}`;
+    let source = `Images/${section ? section : props.valueSection}/${props.name}`;
     let imgArr = [1,2,3,4,5,6,7,8,9,10,11,12];
 
     const sliderImg=[];

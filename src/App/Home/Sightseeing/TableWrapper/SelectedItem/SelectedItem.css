@@ -1,7 +1,6 @@
 .selectedItem{
-    min-height: 65vh;
-    position: absolute;
-    top: 150px;
+    position: relative;
+    margin-bottom: 80px;
     width: 99%;
-    padding: 20px;
+    top: 20px;
 }
