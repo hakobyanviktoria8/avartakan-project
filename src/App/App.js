@@ -20,10 +20,12 @@ function App() {
           <BrowserRouter>
               <AuthProvider>
                   <Routes>
+                      {/*inside Home => Navigation + Outlet + Footer*/}
                       <Route path="/" element={<Home />}>
+                          {/*Home Outlet*/}
                           <Route path="/" element={<Header/>}/>
                           <Route path="/avartakan-project" element={<Header/>}/>
-                          <Route path="sightseeing" element={<Sightseeing />}>
+                          <Route path="/sightseeing" element={<Sightseeing />}>
                               <Route path="/" element={<SightseeingList />} />
                               <Route path=":section" element={<TableWrapper />}>
                                   <Route path="/" element={<TableWrapperList />}/>

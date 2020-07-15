@@ -9,10 +9,8 @@ export const AuthProvider = ({ children }) => {
 
     useEffect(() => {
         app.auth().onAuthStateChanged(async (user) => {
-            console.log(user);
             if (user != null) {
                 let userDetails = await getUser(user.uid);
-                console.log(userDetails.data());
                 setCurrentUser(userDetails.data());
             } else {
                 //logout

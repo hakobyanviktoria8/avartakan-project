@@ -18,7 +18,6 @@ export const Registration = (props) => {
 
     const onSubmit = useCallback(
         async data => {
-            console.log(data);
             try {
                 let result = await app.auth().createUserWithEmailAndPassword(data.email, data.password);
                 //firestore add user

@@ -13,7 +13,7 @@ function Sightseeing(props) {
                         <h2 className={"title"}>Բացահայտենք Հայաստանը միասին</h2>
                     </Col>
                 </Row>
-
+                {/*inside SightseeingList & TableWrapper*/}
                 <Outlet/>
 
             </Container>

@@ -8,33 +8,30 @@ import nur3 from "./img/nur3.png";
 import gorg from "./img/gorg.png";
 import {Item} from "../Sightseeing/TableWrapper/SelectedItem/Item/Item";
 
-
 export function Search(props) {
     const [valueSection, setValueSection] = useState("church");
-    const [valueName, setValueName] = useState("");
+    const [valueName, setValueName] = useState("Mother-See-of-Holy-Etchmiadzin");
     const [options,setOptions] = useState([]);
     const [show, setShow] = useState(false);
     const [items, setItems] = useState([]);
 
     const handleChange = (event) => {
         setValueSection(event.target.value);
+        setShow(false);
         fetch(`https://am-places.herokuapp.com/${event.target.value}`)
             .then(response => response.json())
             .then(response => setOptions(response));
-        // options && setOptions("")
-        // console.log(options)
     };
 
     const handleChangeName =(event)=>{
+        event.preventDefault();
+        setShow(false);
         setValueName(event.target.value);
     };
 
     const handleSubmit = (event) => {
         event.preventDefault();
         setShow(true);
-    };
-
-    useEffect(()=>{
         async function fetchItem() {
             try {
                 const response = await fetch(`https://am-places.herokuapp.com/${valueSection}?name=${valueName}`);
@@ -46,7 +43,14 @@ export function Search(props) {
             }
         }
         fetchItem()
-    },[valueName]);
+    };
+
+    useEffect(()=>{
+        setShow(false);
+        fetch(`https://am-places.herokuapp.com/church`)
+            .then(response => response.json())
+            .then(response => setOptions(response));
+    },[]);
 
     return(
         <div className={"search"}>
@@ -66,8 +70,13 @@ export function Search(props) {
                     <Col xs="12" sm="10" md="6" lg="6" xl="4" className={"m-1"}>
                         <Form >
                             <FormGroup row>
-
-                                    <Input className={"dropdown"}  value={valueSection} onChange={handleChange} type="select" name="select" id="exampleSelect">
+                                    <Input className={"dropdown"}
+                                           value={valueSection}
+                                           onChange={handleChange}
+                                           type="select"
+                                           name="select"
+                                           id="exampleSelect"
+                                    >
                                         <option value="church">Եկեղեցիներ</option>
                                         <option value="museums">Թանգարաններ</option>
                                         <option value="culture">Մշակույթ</option>
@@ -87,7 +96,13 @@ export function Search(props) {
                     <Col xs="12" sm="10" md="6" lg="5" xl="4" className={"m-1"}>
                         <Form onSubmit={handleSubmit}>
                             <FormGroup row>
-                                <Input className={"dropdown"}  value={valueName} onChange={handleChangeName} type="select" name="select" id="exampleSelect">
+                                <Input className={"dropdown"}
+                                       value={valueName}
+                                       onChange={handleChangeName}
+                                       type="select"
+                                       name="select"
+                                       id="exampleSelect"
+                                >
                                     {
                                         options.map(item =>
                                             <option key={item.key} value={item.name}>{item.header}</option>

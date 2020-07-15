@@ -24,11 +24,13 @@ export function Item(props) {
     return(
         <Container>
             <Row>
+                {/*about item*/}
                 <Col xs="12" sm="10" md="6" lg="6" xl="6" className={"item"}>
                     <h2>{props.header}</h2>
                     <h6>{props.caption}</h6>
                     <p>{props.description}</p>
                 </Col>
+                {/*image item*/}
                 <Col xs="12" sm="10" md="6" lg="6" xl="6" className={"item"}>
                     <div className={"imageNav"}>
                         {imgArr.map(x=>
@@ -38,10 +40,9 @@ export function Item(props) {
                     </div>
                 </Col>
             </Row>
-
+            {/*map item*/}
             <Row>
                 <Col>
-                    {console.log(props.coordinates)}
                     <iframe
                         src={props.coordinates}
                         width="100%"
@@ -54,6 +55,7 @@ export function Item(props) {
                     </iframe>
                 </Col>
             </Row>
+            {/*contact item*/}
             <Row className={"contacts"}>
                 <Col xs="12" sm="10" md="6" lg="6" xl="6">
                     <Row>

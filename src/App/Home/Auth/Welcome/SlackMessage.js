@@ -42,16 +42,15 @@ export function SlackMessage(props) {
                     ],
                 }
             );
-            console.log("Arach", res, res.data);
             if (res.status === 200) {
-                alert("Your message was successfully sent to.");
+                alert("Ձեր նամակը հաջողությամբ ուղարկվել է:");
                 setName("");
                 setEmail("");
                 setMessage("");
             }
         } catch (err) {
             console.error(err);
-            alert("There was an error. Please try again later.");
+            alert("Կներեք, նկատվել է խնդիր համացանցում: Փորձեք մի փոքր ավելի ուշ: Շնորհակալություն ...!");
         }
     }
 
@@ -61,7 +60,7 @@ export function SlackMessage(props) {
                 style={{width: "100%"}}
                 name=""
                 id="message"
-                placeholder="Write message ..."
+                placeholder="Գրել նամակ ..."
                 cols="60"
                 rows="3"
                 value={message}

@@ -25,12 +25,14 @@ export default function Table(props) {
                 {
                     rowData.map(item =>
                         <Row key={item.key}>
+                            {/*image & caption item*/}
                             <Col xs="12" sm="12" md="4" lg="3" xl="3">
                                 <Link  to={`${item.name}`}>
                                     <img className={"timg"} src={item.src} alt={item.altText}/>
                                 </Link>
                                 <p className="text-center">{item.caption}</p>
                             </Col>
+                            {/*header, address & description item*/}
                             <Col xs="12" sm="12" md="8" lg="9" xl="9">
                                 <div className={"descr"}>
                                     <h4>{item.header}</h4>
