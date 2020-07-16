@@ -5,8 +5,15 @@ import Swiper from 'swiper';
 
 const SwiperComp = (props)=>{
     const swiper = useRef(null);
-    const categoryData = props.itemData;
-    console.log(categoryData);
+    const categoryData = [0,1,2,3,4,5];
+    let arrImg=[];
+    let arrHeader=[];
+    props.itemData.map(x=>{
+        arrImg.push(x.src);
+        arrHeader.push(x.header)
+        }
+    );
+
     useEffect(()=>{
         swiper.current = new Swiper('.swiper-container',{
             effect: 'coverflow',
@@ -29,25 +36,25 @@ const SwiperComp = (props)=>{
             }
         })
     },[]);
-    console.log(props.itemData);
+
     return (
         <div className="AppSwiper">
             <div className="swiperMainContainer">
                 <div className="swiper-container">
                     <div className="swiper-wrapper">
-                        {categoryData.map((item,key) => (
-                            <div className="swiper-slide" key={key}>
-                                <div className="imgCardHolder">
-                                    <img src={item.src} alt="images"/>
+                        {categoryData.map((item,key) => {
+                            return(
+                                <div className="swiper-slide" key={key}>
+                                    <div className="imgCardHolder">
+                                        <img className={"swiperImg"}
+                                             src={arrImg[item]} alt="images"/>
+                                    </div>
+                                    <h5>{arrHeader[item]}</h5>
                                 </div>
-                                <h5>{item.header}</h5>
-                                <small>{item.caption}</small>
-                            </div>
-                        ))}
+                            )
+                        })}
                     </div>
                     <div className="swiper-pagination"> </div>
-                    <div className="swiper-button-prev"> </div>
-                    <div className="swiper-button-next"> </div>
                 </div>
             </div>
         </div>

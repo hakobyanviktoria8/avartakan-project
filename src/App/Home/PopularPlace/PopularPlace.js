@@ -4,6 +4,7 @@ import SwiperComp from "./SwiperComp/SwiperComp";
 
 export default function PopularPlace(props) {
     const [itemData, setItemData] = useState([]);
+
     useEffect(()=>{
         async function fetchItem() {
             try {
@@ -16,10 +17,10 @@ export default function PopularPlace(props) {
         }
         fetchItem()
     },[]);
+
     return(
         <div className={"popular"}>
             <h2 className={"title"}>Ամենահայտնի տեղերը</h2>
-            {console.log(itemData)}
             <SwiperComp itemData={itemData}/>
         </div>
     )
