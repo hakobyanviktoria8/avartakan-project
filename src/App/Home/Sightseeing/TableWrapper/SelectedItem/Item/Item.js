@@ -22,7 +22,7 @@ export function Item(props) {
     console.log(sliderImg);
     
     return(
-        <Container>
+        <Container className={"itemContainer"}>
             <Row>
                 {/*about item*/}
                 <Col xs="12" sm="10" md="6" lg="6" xl="6" className={"item"}>

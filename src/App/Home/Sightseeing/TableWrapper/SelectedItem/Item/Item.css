@@ -1,3 +1,8 @@
+.itemContainer{
+    min-height: 85vh;
+    position: relative;
+    margin-bottom: 40px;
+}
 .item{
     min-height: 400px;
     max-height: 600px;
@@ -36,8 +41,11 @@
     font-size: 14px;
 }
 
-@media (max-width: 760px) {
+@media (max-width: 768px) {
     .col-sm-10{
         margin: 0 auto;
+    }
+    .workTime td,.contacts{
+        font-size: 12px;
     }
 }

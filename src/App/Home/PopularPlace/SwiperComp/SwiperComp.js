@@ -31,12 +31,11 @@ const SwiperComp = (props)=>{
     },[]);
     console.log(props.itemData);
     return (
-        <div className="App">
+        <div className="AppSwiper">
             <div className="swiperMainContainer">
                 <div className="swiper-container">
                     <div className="swiper-wrapper">
-
-                        {categoryData.map((item,key)=>(
+                        {categoryData.map((item,key) => (
                             <div className="swiper-slide" key={key}>
                                 <div className="imgCardHolder">
                                     <img src={item.src} alt="images"/>
