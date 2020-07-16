@@ -19,8 +19,7 @@ export function Item(props) {
     imgArr.map(x=>
         sliderImg.push(`./${source}/${x}.jpg`)
     );
-    console.log(sliderImg);
-    
+
     return(
         <Container className={"itemContainer"}>
             <Row>

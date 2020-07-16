@@ -15,6 +15,13 @@ export function Search(props) {
     const [show, setShow] = useState(false);
     const [items, setItems] = useState([]);
 
+    useEffect(()=>{
+        setShow(false);
+        fetch(`https://am-places.herokuapp.com/church`)
+            .then(response => response.json())
+            .then(response => setOptions(response));
+    },[]);
+
     const handleChange = (event) => {
         setValueSection(event.target.value);
         setShow(false);
@@ -28,7 +35,7 @@ export function Search(props) {
         setShow(false);
         setValueName(event.target.value);
     };
-
+    console.log(valueName);
     const handleSubmit = (event) => {
         event.preventDefault();
         setShow(true);
@@ -45,12 +52,7 @@ export function Search(props) {
         fetchItem()
     };
 
-    useEffect(()=>{
-        setShow(false);
-        fetch(`https://am-places.herokuapp.com/church`)
-            .then(response => response.json())
-            .then(response => setOptions(response));
-    },[]);
+
 
     return(
         <div className={"search"}>
