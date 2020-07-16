@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f5e8b7e4f79ff4a30532df4643da3457",
+    "revision": "264c4ed722f156e067269b390e4d6fc3",
     "url": "/avartakan-project/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/avartakan-project/static/css/2.127ff0bb.chunk.css"
   },
   {
-    "revision": "fa4c43216f7f0a60f80d",
-    "url": "/avartakan-project/static/css/main.21926a8f.chunk.css"
+    "revision": "d01355a1a0cc7e3db13b",
+    "url": "/avartakan-project/static/css/main.e79ecc95.chunk.css"
   },
   {
     "revision": "0ae4273a9f58338e64f8",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/avartakan-project/static/js/2.9ee33121.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "fa4c43216f7f0a60f80d",
-    "url": "/avartakan-project/static/js/main.2ed02b9b.chunk.js"
+    "revision": "d01355a1a0cc7e3db13b",
+    "url": "/avartakan-project/static/js/main.3d1a163f.chunk.js"
   },
   {
     "revision": "ca58fb72e036c2932cab",
