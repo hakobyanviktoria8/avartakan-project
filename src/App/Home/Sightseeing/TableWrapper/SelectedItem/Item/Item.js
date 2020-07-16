@@ -15,6 +15,7 @@ export function Item(props) {
     let source = `Images/${section ? section : props.valueSection}/${props.name}`;
     let imgArr = [1,2,3,4,5,6,7,8,9,10,11,12];
 
+    //slider Images [./Images/museums/Patmutyan-Tangaran/1-12.jpg]
     const sliderImg=[];
     imgArr.map(x=>
         sliderImg.push(`./${source}/${x}.jpg`)
@@ -32,13 +33,15 @@ export function Item(props) {
                 {/*image item*/}
                 <Col xs="12" sm="10" md="6" lg="6" xl="6" className={"item"}>
                     <div className={"imageNav"}>
-                        {imgArr.map(x=>
+                        {imgArr.map(x =>
                             <img key={x} src={require(`./${source}/${x}.jpg`)}/>
                         )}
+
                         <ModalComponent sliderImg={sliderImg}/>
                     </div>
                 </Col>
             </Row>
+
             {/*map item*/}
             <Row>
                 <Col>
@@ -54,6 +57,7 @@ export function Item(props) {
                     </iframe>
                 </Col>
             </Row>
+
             {/*contact item*/}
             <Row className={"contacts"}>
                 <Col xs="12" sm="10" md="6" lg="6" xl="6">

@@ -1,12 +1,12 @@
 import React  from "react";
 import { UncontrolledCarousel } from 'reactstrap';
 import axios from 'axios';
-import Border from "./Border";
 
 class Card extends React.Component{
     state = {
         items: [],
     };
+
     componentDidMount() {
         axios.get(this.props.url)
             .then(res => {
@@ -14,14 +14,14 @@ class Card extends React.Component{
                 this.setState({ items });
             })
     }
+
     render() {
         return (
-            <Border>
-                <div>
-                    <UncontrolledCarousel items={this.state.items}/>
-                    <h3 className={"subtitle"}>{this.props.title}</h3>
-                </div>
-            </Border>
+            <div  className="cardBorder">
+                {/*img, header, caption, key*/}
+                <UncontrolledCarousel items={this.state.items}/>
+                <h3 className={"subtitle"}>{this.props.title}</h3>
+            </div>
         )
     }
 }

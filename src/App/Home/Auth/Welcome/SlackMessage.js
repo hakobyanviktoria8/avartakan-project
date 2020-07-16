@@ -27,7 +27,7 @@ export function SlackMessage(props) {
     async function submitForm(e) {
         // e.preventDefault();
 
-        const url = "https://hooks.slack.com/services/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";
+        const url = "https://hooks.slack.com/services/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";
         const data = {
             text: `Name: ${name} \n Message: ${message} \n Email: ${email} `,
         };

@@ -15,6 +15,7 @@ export function Search(props) {
     const [show, setShow] = useState(false);
     const [items, setItems] = useState([]);
 
+    //start church and options give https://am-places.herokuapp.com/church value
     useEffect(()=>{
         setShow(false);
         fetch(`https://am-places.herokuapp.com/church`)
@@ -22,6 +23,7 @@ export function Search(props) {
             .then(response => setOptions(response));
     },[]);
 
+    //section selected and send data options
     const handleChange = (event) => {
         setValueSection(event.target.value);
         setShow(false);
@@ -30,19 +32,20 @@ export function Search(props) {
             .then(response => setOptions(response));
     };
 
+    //name selected
     const handleChangeName =(event)=>{
         event.preventDefault();
         setShow(false);
         setValueName(event.target.value);
     };
-    console.log(valueName);
+
+    //search data in selected section and name, show Item component
     const handleSubmit = (event) => {
         event.preventDefault();
         setShow(true);
         async function fetchItem() {
             try {
                 const response = await fetch(`https://am-places.herokuapp.com/${valueSection}?name=${valueName}`);
-                console.log(response);
                 const json = await response.json();
                 setItems(json);
             } catch (error) {
@@ -51,8 +54,6 @@ export function Search(props) {
         }
         fetchItem()
     };
-
-
 
     return(
         <div className={"search"}>

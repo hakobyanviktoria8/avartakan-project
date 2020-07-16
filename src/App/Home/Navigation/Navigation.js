@@ -10,6 +10,7 @@ export default function Navigation(props) {
     const [isOpen, setIsOpen] = useState(false);
     const toggle = () => setIsOpen(!isOpen);
     const {currentUser} = useContext(AuthContext);
+
     return (
         <div>
             <Navbar color="light" light expand="md" className={"navigation"}>

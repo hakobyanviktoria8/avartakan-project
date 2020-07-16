@@ -26,8 +26,10 @@ function App() {
                           <Route path="/" element={<Header/>}/>
                           <Route path="/avartakan-project" element={<Header/>}/>
                           <Route path="/sightseeing" element={<Sightseeing />}>
+                              {/*Sightseeing Outlet*/}
                               <Route path="/" element={<SightseeingList />} />
                               <Route path=":section" element={<TableWrapper />}>
+                                  {/*TableWrapper Outlet*/}
                                   <Route path="/" element={<TableWrapperList />}/>
                                   <Route path=":name" element={<SelectedItem />}/>
                               </Route>

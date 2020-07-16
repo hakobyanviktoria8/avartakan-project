@@ -12,7 +12,8 @@ export default function PopularPlace(props) {
                 const json = await response.json();
                 setItemData(json);
             } catch (error) {
-                alert("Կներեք, նկատվել է խնդիր համացանցում: Փորձեք մի փոքր ավելի ուշ: Շնորհակալություն ...!")
+                alert("Կներեք, նկատվել է խնդիր համացանցում: " +
+                    "Փորձեք մի փոքր ավելի ուշ: Շնորհակալություն ...!")
             }
         }
         fetchItem()

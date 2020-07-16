@@ -23,6 +23,7 @@ export const Registration = (props) => {
                 //firestore add user
                 await createUser(result.user.uid, data.firstname, data.lastname, data.email, data.phone);
                 navigate("/login");
+                alert("Շնորհավորում ենք Ձեր գրանցումը հաջողությամբ կատարվել է:");
             } catch (error) {
                 alert("Տվյալ էլեկտրոնային հասցեն արդեն զբաղված է: Խնդրում ենք փորձել մեկ այլ տարբերակ:");
             }
