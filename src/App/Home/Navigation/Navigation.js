@@ -19,7 +19,6 @@ export default function Navigation(props) {
                 <Collapse isOpen={isOpen} navbar>
                     <Nav className="ml-auto bg-light" navbar>
                         <Link className={"mx-3 link"} to="/sightseeing">Տեսարժան վայրեր</Link>
-                        <Link className={"mx-3 link"} to="/popular-place">Ամենահայտնի վայրեր</Link>
 
                         {!!currentUser ? (
                             <Welcome/>

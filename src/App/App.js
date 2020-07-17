@@ -7,7 +7,6 @@ import Sightseeing from "./Home/Sightseeing/Sightseeing";
 import {SightseeingList} from "./Home/Sightseeing/SightseeingList/SightseeingList";
 import TableWrapper from "./Home/Sightseeing/TableWrapper/TableWrapper";
 import {TableWrapperList} from "./Home/Sightseeing/TableWrapper/TableWrapperList/TableWrapperList";
-import PopularPlace from "./Home/PopularPlace/PopularPlace";
 import {SelectedItem} from "./Home/Sightseeing/TableWrapper/SelectedItem/SelectedItem";
 import {Search} from "./Home/Search/Search";
 import {Login} from "./Home/Auth/Login/Login";
@@ -34,7 +33,6 @@ function App() {
                                   <Route path=":name" element={<SelectedItem />}/>
                               </Route>
                           </Route>
-                          <Route path="/popular-place" element={<PopularPlace />} />
                           <Route path="/registration" element={<Registration/>} />
                           <Route path="/login" element={<Login />} />
                           <Route path="/search" element={<Search />} />
