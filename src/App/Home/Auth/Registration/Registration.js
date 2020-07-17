@@ -7,7 +7,6 @@ import {createUser} from "../../../firestore";
 import {AuthContext} from "../AuthProvider";
 import { Navigate, useNavigate } from 'react-router-dom';
 
-
 export const Registration = (props) => {
     //react-hook-form
     const { register, handleSubmit, errors } = useForm();
@@ -47,10 +46,10 @@ export const Registration = (props) => {
                                 required: true,
                                 minLength:3
                             })}
-                            placeholder="First name"
+                            placeholder="Անուն"
                         />
-                        {errors.firstname && errors.firstname.type === "required" && <span>First name is required.</span>}
-                        {errors.firstname && errors.firstname.type === "minLength" && <span>First name min length of 3.</span>}
+                        {errors.firstname && errors.firstname.type === "required" && <span>Անունը պարտադիր է.</span>}
+                        {errors.firstname && errors.firstname.type === "minLength" && <span>Նվազագույն երկարությունը 3 է.</span>}
                     </Col>
                 </Row>
                 <Row className="my-3">
@@ -61,10 +60,10 @@ export const Registration = (props) => {
                                 required: true,
                                 minLength:5
                             })}
-                            placeholder="Last name"
+                            placeholder="Ազգանուն"
                         />
-                        {errors.lastname && errors.lastname.type === "required" && <span>Last name is required.</span>}
-                        {errors.lastname && errors.lastname.type === "minLength" && <span>Last name min length of 4.</span>}
+                        {errors.lastname && errors.lastname.type === "required" && <span>Ազգանունը պարտադիր է.</span>}
+                        {errors.lastname && errors.lastname.type === "minLength" && <span>Նվազագույն երկարությունը 4 է.</span>}
                     </Col>
                 </Row>
                 <Row className="my-3">
@@ -73,13 +72,13 @@ export const Registration = (props) => {
                             name="email"
                             ref={register({
                                 required: true,
-                                minLength:8,
+                                minLength:6,
                                 pattern: /^\S+@\S+$/i
                             })}
-                            placeholder="Email"
+                            placeholder="Էլ. հասցե"
                         />
-                        {errors.email && errors.email.type === "required" && <span>Email is required.</span>}
-                        {errors.email && errors.email.type === "minLength" && <span>Email min length of 8.</span>}
+                        {errors.email && errors.email.type === "required" && <span>Էլ. հասցեն պարտադիր է.</span>}
+                        {errors.email && errors.email.type === "minLength" && <span>Նվազագույն երկարությունը 6 է.</span>}
                     </Col>
                 </Row>
                 <Row className="my-3">
@@ -90,10 +89,10 @@ export const Registration = (props) => {
                                 required: true,
                                 pattern: /^\d\d\d-\d\d-\d\d-\d\d$/
                             })}
-                            placeholder="Phone 0**-**-**-**"
+                            placeholder="Հեռախոսահամար 0**-**-**-**"
                         />
-                        {errors.phone && errors.phone.type === "required" && <span>Phone number is required.</span>}
-                        {errors.phone && errors.phone.type === "minLength" && <span>Phone number fill thats form 0**-**-**-**.</span>}
+                        {errors.phone && errors.phone.type === "required" && <span>Հեռախոսահամարը պարտադիր է.</span>}
+                        {errors.phone && errors.phone.type === "minLength" && <span>Լրացնել տվյալ ձևաչափով 0**-**-**-**.</span>}
                     </Col>
                 </Row>
                 <Row className="my-3">
@@ -101,33 +100,33 @@ export const Registration = (props) => {
                         <input className={"p-2"}
                             name="age"
                             ref={register({
-                                min: 8,
+                                min: 5,
                                 max: 100,
                                 pattern: /\d+/
                             })}
-                            placeholder="Age" />
-                        {errors.age && errors.age.type === "required" && <span>Please enter number for age.</span>}
+                            placeholder="Տարիք" />
+                        {errors.age && errors.age.type === "required" && <span>Լրացրեք Ձեր տարիքը.</span>}
                     </Col>
                 </Row>
                 <Row className={"mt-0"}>
                     <Col xs="10" sm="8" md="6" lg="5" xl="4" className="colSize">
                         <Row>
                             <Col xs="6" sm="6" md="6" lg="6" xl="6">
-                                Female <input className={"gender"}
+                                Իգական <input className={"gender"}
                                 name="gender"
                                 type="radio"
                                 value="female"
                                 ref={register({ required: true })}/>
                             </Col>
                             <Col xs="6" sm="6" md="6" lg="6" xl="6">
-                                Male <input className={"gender"}
+                                Արական <input className={"gender"}
                                 name="gender"
                                 type="radio"
                                 value="male"
                                 ref={register({ required: true })}/>
                             </Col>
                         </Row>
-                        {errors.gender && <span>Please select gender.</span>}
+                        {errors.gender && <span>Նշեք Ձեր սեռը.</span>}
                     </Col>
                 </Row>
                 <Row className="my-3">
@@ -139,10 +138,10 @@ export const Registration = (props) => {
                                 required: true,
                                 minLength:8,
                             })}
-                            placeholder="Password"
+                            placeholder="Գաղտնաբառ"
                         />
-                        {errors.password && errors.password.type === "required" && <span>Password is required.</span>}
-                        {errors.password && errors.password.type === "minLength" && <span>Password min length of 8.</span>}
+                        {errors.password && errors.password.type === "required" && <span>Գաղտնաբառը պարտադիր է.</span>}
+                        {errors.password && errors.password.type === "minLength" && <span>Նվազագույն երկարությունը 8.</span>}
                     </Col>
                 </Row>
                 <Row className="my-3">
