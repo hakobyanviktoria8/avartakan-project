@@ -5,7 +5,7 @@ import Swiper from 'swiper';
 
 const SwiperComp = (props)=>{
     const swiper = useRef(null);
-    const categoryData = [0,1,2,3,4,5];
+    const categoryData = [0,1,2,3,4,5,6];
     let arrImg=[];
     let arrHeader=[];
     props.itemData.map(x=>{
