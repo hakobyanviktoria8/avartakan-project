@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/avartakan-project/static/css/main.e79ecc95.chunk.css",
-    "main.js": "/avartakan-project/static/js/main.3d1a163f.chunk.js",
-    "main.js.map": "/avartakan-project/static/js/main.3d1a163f.chunk.js.map",
+    "main.css": "/avartakan-project/static/css/main.aa8cca7e.chunk.css",
+    "main.js": "/avartakan-project/static/js/main.bdc2afc2.chunk.js",
+    "main.js.map": "/avartakan-project/static/js/main.bdc2afc2.chunk.js.map",
     "runtime-main.js": "/avartakan-project/static/js/runtime-main.33403f9b.js",
     "runtime-main.js.map": "/avartakan-project/static/js/runtime-main.33403f9b.js.map",
     "static/css/2.127ff0bb.chunk.css": "/avartakan-project/static/css/2.127ff0bb.chunk.css",
-    "static/js/2.9ee33121.chunk.js": "/avartakan-project/static/js/2.9ee33121.chunk.js",
-    "static/js/2.9ee33121.chunk.js.map": "/avartakan-project/static/js/2.9ee33121.chunk.js.map",
+    "static/js/2.3b009b8c.chunk.js": "/avartakan-project/static/js/2.3b009b8c.chunk.js",
+    "static/js/2.3b009b8c.chunk.js.map": "/avartakan-project/static/js/2.3b009b8c.chunk.js.map",
     "index.html": "/avartakan-project/index.html",
-    "precache-manifest.d6daa285e6f00e73e899bf1ac4901f9c.js": "/avartakan-project/precache-manifest.d6daa285e6f00e73e899bf1ac4901f9c.js",
+    "precache-manifest.1c67cf607a09331efd3e3a20d7c7afd6.js": "/avartakan-project/precache-manifest.1c67cf607a09331efd3e3a20d7c7afd6.js",
     "service-worker.js": "/avartakan-project/service-worker.js",
     "static/css/2.127ff0bb.chunk.css.map": "/avartakan-project/static/css/2.127ff0bb.chunk.css.map",
-    "static/css/main.e79ecc95.chunk.css.map": "/avartakan-project/static/css/main.e79ecc95.chunk.css.map",
-    "static/js/2.9ee33121.chunk.js.LICENSE.txt": "/avartakan-project/static/js/2.9ee33121.chunk.js.LICENSE.txt",
+    "static/css/main.aa8cca7e.chunk.css.map": "/avartakan-project/static/css/main.aa8cca7e.chunk.css.map",
+    "static/js/2.3b009b8c.chunk.js.LICENSE.txt": "/avartakan-project/static/js/2.3b009b8c.chunk.js.LICENSE.txt",
     "static/media/1.jpg": "/avartakan-project/static/media/1.ff1745fd.jpg",
     "static/media/10.jpg": "/avartakan-project/static/media/10.fe44e23a.jpg",
     "static/media/11.jpg": "/avartakan-project/static/media/11.fd4d4506.jpg",
@@ -38,8 +38,8 @@
   "entrypoints": [
     "static/js/runtime-main.33403f9b.js",
     "static/css/2.127ff0bb.chunk.css",
-    "static/js/2.9ee33121.chunk.js",
-    "static/css/main.e79ecc95.chunk.css",
-    "static/js/main.3d1a163f.chunk.js"
+    "static/js/2.3b009b8c.chunk.js",
+    "static/css/main.aa8cca7e.chunk.css",
+    "static/js/main.bdc2afc2.chunk.js"
   ]
 }
