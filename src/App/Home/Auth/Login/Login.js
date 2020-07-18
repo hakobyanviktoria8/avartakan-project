@@ -7,6 +7,7 @@ import { Container, Row, Col } from 'reactstrap';
 
 export const Login = (props) => {
     let navigate = useNavigate();
+
     const handleLogin = useCallback(
         async event => {
             event.preventDefault();
@@ -34,12 +35,12 @@ export const Login = (props) => {
             <form onSubmit={handleLogin}>
                 <Row className="my-3">
                     <Col xs="10" sm="8" md="6" lg="5" xl="4" className="colSize">
-                        <input className={"p-2"} name="email" type="email" placeholder="Email" />
+                        <input className={"p-2"} name="email" type="email" placeholder="Էլ. հասցե" />
                     </Col>
                 </Row>
                 <Row className="my-3">
                     <Col xs="10" sm="8" md="6" lg="5" xl="4" className="colSize">
-                        <input className={"p-2"} name="password" type="password" placeholder="Password" />
+                        <input className={"p-2"} name="password" type="password" placeholder="Գաղտնաբառ" />
                     </Col>
                 </Row>
                 <Row className="my-3">

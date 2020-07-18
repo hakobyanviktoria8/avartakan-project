@@ -8,6 +8,7 @@ const SwiperComp = (props)=>{
     const categoryData = [0,1,2,3,4,5,6];
     let arrImg=[];
     let arrHeader=[];
+
     props.itemData.map(x=>{
         arrImg.push(x.src);
         arrHeader.push(x.header)

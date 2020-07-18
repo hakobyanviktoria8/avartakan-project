@@ -10,8 +10,10 @@ import { Navigate, useNavigate } from 'react-router-dom';
 export const Registration = (props) => {
     //react-hook-form
     const { register, handleSubmit, errors } = useForm();
-    //react-router-dom
+
+    //react-router-dom save history
     let navigate = useNavigate();
+
     //useContext
     const { currentUser } = useContext(AuthContext);
 
@@ -21,8 +23,13 @@ export const Registration = (props) => {
                 let result = await app.auth().createUserWithEmailAndPassword(data.email, data.password);
                 //firestore add user
                 await createUser(result.user.uid, data.firstname, data.lastname, data.email, data.phone);
+
+                //useNavigate HOOK user submits a form ...
                 navigate("/login");
+
+                //success registration message
                 alert("Շնորհավորում ենք Ձեր գրանցումը հաջողությամբ կատարվել է:");
+
             } catch (error) {
                 alert("Տվյալ էլեկտրոնային հասցեն արդեն զբաղված է: Խնդրում ենք փորձել մեկ այլ տարբերակ:");
             }
