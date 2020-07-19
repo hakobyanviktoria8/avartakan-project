@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import {BrowserRouter, Routes, Route,} from 'react-router-dom';
+import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import {Home} from "./Home/Home";
 import Header from "./Home/Header/Header";
 import Sightseeing from "./Home/Sightseeing/Sightseeing";
