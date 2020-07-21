@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2a1c3cce189fc659505497d81107f534",
+    "revision": "7053876dd6fc351092310b372e65ae69",
     "url": "/avartakan-project/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/avartakan-project/static/css/2.127ff0bb.chunk.css"
   },
   {
-    "revision": "64de532f13e3f9325f00",
+    "revision": "da15ec4ec7467ab59263",
     "url": "/avartakan-project/static/css/main.aa8cca7e.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/avartakan-project/static/js/2.3b009b8c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "64de532f13e3f9325f00",
-    "url": "/avartakan-project/static/js/main.bdc2afc2.chunk.js"
+    "revision": "da15ec4ec7467ab59263",
+    "url": "/avartakan-project/static/js/main.fe22ead8.chunk.js"
   },
   {
     "revision": "ca58fb72e036c2932cab",
