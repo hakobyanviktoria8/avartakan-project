@@ -6,6 +6,6 @@ export  function TableWrapperList(props) {
     let { section } = useParams();
 
     return (
-        <Table url={`https://am-places.herokuapp.com/${section}`}/>
+        <Table url={`https://json-server-data.onrender.com/${section}`}/>
     );
 }

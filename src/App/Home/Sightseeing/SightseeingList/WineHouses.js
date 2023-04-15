@@ -4,7 +4,11 @@ import Card from "./Card";
 export default function WineHouses(props) {
     return(
         <div>
-            <Card url={"https://am-places.herokuapp.com/wineHouses"} title={"Գինետներ"}/>
+            <Card
+                url={"https://json-server-data.onrender.com/wineHouses"}
+                title={"Գինետներ"}
+                srcName={"winehouses/Ginetun"}
+            />
         </div>
     )
 }

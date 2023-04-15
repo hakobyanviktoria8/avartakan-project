@@ -15,10 +15,10 @@ export function Search(props) {
     const [show, setShow] = useState(false);
     const [items, setItems] = useState([]);
 
-    //start church and options give https://am-places.herokuapp.com/church value
+    //start church and options give https://json-server-data.onrender.com/church value
     useEffect(()=>{
         setShow(false);
-        fetch(`https://am-places.herokuapp.com/church`)
+        fetch(`https://json-server-data.onrender.com/church`)
             .then(response => response.json())
             .then(response => setOptions(response));
     },[]);
@@ -27,7 +27,7 @@ export function Search(props) {
     const handleChange = (event) => {
         setValueSection(event.target.value);
         setShow(false);
-        fetch(`https://am-places.herokuapp.com/${event.target.value}`)
+        fetch(`https://json-server-data.onrender.com/${event.target.value}`)
             .then(response => response.json())
             .then(response => setOptions(response));
     };
@@ -45,7 +45,7 @@ export function Search(props) {
         setShow(true);
         async function fetchItem() {
             try {
-                const response = await fetch(`https://am-places.herokuapp.com/${valueSection}?name=${valueName}`);
+                const response = await fetch(`https://json-server-data.onrender.com/${valueSection}?name=${valueName}`);
                 const json = await response.json();
                 setItems(json);
             } catch (error) {

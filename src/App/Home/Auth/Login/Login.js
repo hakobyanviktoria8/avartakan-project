@@ -19,7 +19,7 @@ export const Login = (props) => {
                 alert("Մուտքանունի կամ գաղտնաբառի սխալ մուքտ ...! Խնդրում ենք փոորձել կրկին:");
             }
         }
-    );
+    ,[navigate]);
 
     const { currentUser } = useContext(AuthContext);
 

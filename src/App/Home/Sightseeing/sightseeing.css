@@ -46,9 +46,21 @@
     border-radius: 10px;
     margin-bottom: 20px;
 }
+.cardBorder > img {
+    vertical-align: middle;
+    border-style: none;
+    width: 100%;
+    object-fit: cover;
+    height: 80%;
+    margin-bottom: 24px;
+    border-radius: 6px;
+}
 .cardBorder:hover{
     transform: scale(1.02, 1.02);
     box-shadow: 0 0  10px black;
+}
+.card1 > a {
+    text-decoration: none;
 }
 
 @media (max-width:992px){

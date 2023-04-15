@@ -10,7 +10,7 @@ function Slider (props){
            {
                props.img.map(x=>
                    <div key={`${x}`} className={"sliderImgSize"}>
-                       <img src={require(`${x}`)}/>
+                       <img src={require(`${x}`)} alt="img"/>
                    </div>
                )
            }

@@ -8,7 +8,7 @@ export default function PopularPlace(props) {
     useEffect(()=>{
         async function fetchItem() {
             try {
-                const response = await fetch("https://am-places.herokuapp.com/popular");
+                const response = await fetch("https://json-server-data.onrender.com/popular");
                 const json = await response.json();
                 setItemData(json);
             } catch (error) {

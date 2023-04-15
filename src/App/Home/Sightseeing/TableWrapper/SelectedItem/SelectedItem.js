@@ -10,7 +10,7 @@ export function SelectedItem(props) {
     useEffect(()=>{
         async function fetchItem() {
             try {
-                const response = await fetch(`https://am-places.herokuapp.com/${section}?name=${name}`);
+                const response = await fetch(`https://json-server-data.onrender.com/${section}?name=${name}`);
                 const json = await response.json();
                 setItemData(json);
             } catch (error) {

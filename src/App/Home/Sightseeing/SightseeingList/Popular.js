@@ -4,7 +4,11 @@ import Card from "./Card";
 export default function Popular(props) {
     return(
         <div>
-            <Card url={"https://am-places.herokuapp.com/popular"} title={"Ամենահայտնի"}/>
+            <Card
+                url={"https://json-server-data.onrender.com/popular"}
+                title={"Ամենահայտնի"}
+                srcName={"popular/Ararati-konyaki-gorcaran"}
+            />
         </div>
     )
 }

@@ -1,5 +1,4 @@
 import React  from "react";
-import { UncontrolledCarousel } from 'reactstrap';
 import axios from 'axios';
 
 class Card extends React.Component{
@@ -18,8 +17,10 @@ class Card extends React.Component{
     render() {
         return (
             <div  className="cardBorder">
-                {/*img, header, caption, key*/}
-                <UncontrolledCarousel items={this.state.items}/>
+                <img
+                    src={require(`./../TableWrapper/SelectedItem/Item/Images/${this.props.srcName}/1.jpg`)}
+                    alt="headImage"
+                />
                 <h3 className={"subtitle"}>{this.props.title}</h3>
             </div>
         )

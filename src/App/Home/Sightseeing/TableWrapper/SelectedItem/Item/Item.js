@@ -34,7 +34,7 @@ export function Item(props) {
                 <Col xs="12" sm="10" md="6" lg="6" xl="6" className={"item"}>
                     <div className={"imageNav"}>
                         {imgArr.map(x =>
-                            <img key={x} src={require(`./${source}/${x}.jpg`)}/>
+                            <img key={x} src={require(`./${source}/${x}.jpg`)} alt=""/>
                         )}
 
                         <ModalComponent sliderImg={sliderImg}/>
@@ -53,7 +53,9 @@ export function Item(props) {
                         style={{border:"0"}}
                         allowFullScreen=""
                         aria-hidden="false"
-                        tabIndex="0">
+                        tabIndex="0"
+                        title={Date.now()}
+                    >
                     </iframe>
                 </Col>
             </Row>

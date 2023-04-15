@@ -4,7 +4,11 @@ import Card from "./Card";
 export default function Parks(props) {
     return(
         <div>
-            <Card url={"https://am-places.herokuapp.com/parks"} title={"Այգիներ"}/>
+            <Card
+                url={"https://json-server-data.onrender.com/parks"}
+                title={"Այգիներ"}
+                srcName={"parks/Angliakan-Park"}
+            />
         </div>
     )
 }
