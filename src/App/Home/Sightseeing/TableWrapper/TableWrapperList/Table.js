@@ -22,7 +22,7 @@ export default function Table(props) {
     return(
             <Container>
                 {
-                    rowData.map(item =>
+                    rowData?.map(item =>
                         <Row key={item.key}>
                             {/*image & caption item*/}
                             <Col xs="12" sm="12" md="4" lg="3" xl="3">
